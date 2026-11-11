@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-labelledby="hep-title hep-desc">
+  <title id="hep-title">智能医药 AI 制药引擎</title>
+  <desc id="hep-desc">纯白空间中的透明蓝绿色制药引擎、悬浮 AI 处理器、临床人员与虚构医疗数据界面。</desc>
+  <defs>
+    <linearGradient id="hep-base-top" x1="274" y1="470" x2="838" y2="779" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset=".55" stop-color="#F7FBFE"/>
+      <stop offset="1" stop-color="#E9F1F7"/>
+    </linearGradient>
+    <linearGradient id="hep-base-side" x1="571" y1="677" x2="567" y2="786" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#DDE9F2"/>
+      <stop offset="1" stop-color="#F7FAFC"/>
+    </linearGradient>
+    <linearGradient id="hep-blue-glass" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FFFFFF" stop-opacity=".92"/>
+      <stop offset=".22" stop-color="#B9E8FF" stop-opacity=".76"/>
+      <stop offset=".58" stop-color="#2878FF" stop-opacity=".52"/>
+      <stop offset="1" stop-color="#1452B8" stop-opacity=".72"/>
+    </linearGradient>
+    <linearGradient id="hep-blue-edge" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#85DDF9"/>
+      <stop offset=".38" stop-color="#2878FF"/>
+      <stop offset="1" stop-color="#174A9A"/>
+    </linearGradient>
+    <linearGradient id="hep-white-metal" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset=".42" stop-color="#F5FAFD"/>
+      <stop offset=".72" stop-color="#CFDDE7"/>
+      <stop offset="1" stop-color="#FFFFFF"/>
+    </linearGradient>
+    <linearGradient id="hep-teal-glass" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#E8FFF9" stop-opacity=".94"/>
+      <stop offset=".22" stop-color="#70F0CC" stop-opacity=".74"/>
+      <stop offset=".58" stop-color="#25D3A1" stop-opacity=".46"/>
+      <stop offset="1" stop-color="#0B8E7A" stop-opacity=".68"/>
+    </linearGradient>
+    <linearGradient id="hep-cylinder" x1="360" y1="411" x2="703" y2="622" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F6FFFD" stop-opacity=".92"/>
+      <stop offset=".18" stop-color="#85F0D2" stop-opacity=".72"/>
+      <stop offset=".48" stop-color="#25D3A1" stop-opacity=".38"/>
+      <stop offset=".72" stop-color="#55DCE6" stop-opacity=".48"/>
+      <stop offset="1" stop-color="#0A8B83" stop-opacity=".72"/>
+    </linearGradient>
+    <linearGradient id="hep-cylinder-highlight" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#FFFFFF" stop-opacity=".88"/>
+      <stop offset=".4" stop-color="#FFFFFF" stop-opacity=".05"/>
+      <stop offset="1" stop-color="#37C8F5" stop-opacity=".2"/>
+    </linearGradient>
+    <linearGradient id="hep-screen" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FFFFFF" stop-opacity=".82"/>
+      <stop offset=".45" stop-color="#CFF8F0" stop-opacity=".58"/>
+      <stop offset="1" stop-color="#68D9F8" stop-opacity=".4"/>
+    </linearGradient>
+    <linearGradient id="hep-dark" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#42657C"/>
+      <stop offset="1" stop-color="#16364F"/>
+    </linearGradient>
+    <radialGradient id="hep-orb" cx="36%" cy="28%" r="72%">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset=".3" stop-color="#9EFFE4"/>
+      <stop offset=".7" stop-color="#25D3A1"/>
+      <stop offset="1" stop-color="#0C8B78"/>
+    </radialGradient>
+    <radialGradient id="hep-core" cx="38%" cy="34%" r="66%">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset=".28" stop-color="#A7EEFF"/>
+      <stop offset=".68" stop-color="#37C8F5"/>
+      <stop offset="1" stop-color="#2878FF"/>
+    </radialGradient>
+    <pattern id="hep-grid" width="28" height="28" patternUnits="userSpaceOnUse" patternTransform="skewX(-28)">
+      <path d="M28 0H0V28" fill="none" stroke="#2878FF" stroke-opacity=".12" stroke-width="1"/>
+    </pattern>
+    <filter id="hep-shadow" x="-35%" y="-40%" width="170%" height="190%">
+      <feDropShadow dx="0" dy="20" stdDeviation="20" flood-color="#6F91A8" flood-opacity=".24"/>
+    </filter>
+    <filter id="hep-small-shadow" x="-40%" y="-50%" width="180%" height="210%">
+      <feDropShadow dx="0" dy="9" stdDeviation="9" flood-color="#486A80" flood-opacity=".22"/>
+    </filter>
+    <filter id="hep-glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="9" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="hep-soft" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+    <clipPath id="hep-processor-screen-clip">
+      <path d="M470 278L616 233L707 272L559 320Z"/>
+    </clipPath>
+    <mask id="hep-cylinder-fade">
+      <rect x="330" y="390" width="440" height="260" fill="white"/>
+      <ellipse cx="530" cy="438" rx="170" ry="38" fill="#8E8E8E"/>
+    </mask>
+  </defs>
+
+  <rect width="1200" height="900" fill="#FFFFFF"/>
+
+  <!-- Ambient clinical space -->
+  <g opacity=".72">
+    <path d="M94 232C250 90 444 58 628 114" fill="none" stroke="#37C8F5" stroke-opacity=".1" stroke-width="2"/>
+    <path d="M913 104C1052 193 1110 319 1092 443" fill="none" stroke="#25D3A1" stroke-opacity=".1" stroke-width="2"/>
+    <circle cx="108" cy="224" r="4" fill="#37C8F5"/>
+    <circle cx="1091" cy="446" r="4" fill="#25D3A1"/>
+    <path d="M166 345h76M204 307v76" stroke="#2878FF" stroke-opacity=".12" stroke-width="2"/>
+    <path d="M1012 607h54M1039 580v54" stroke="#25D3A1" stroke-opacity=".16" stroke-width="2"/>
+  </g>
+  <ellipse cx="594" cy="739" rx="407" ry="93" fill="#B9CFDE" opacity=".18" filter="url(#hep-soft)"/>
+
+  <!-- Isometric base -->
+  <g filter="url(#hep-shadow)">
+    <path d="M173 595L537 421Q556 412 576 420L1008 600Q1027 608 1009 619L628 806Q610 815 590 808L174 626Q151 615 173 595Z" fill="url(#hep-base-side)"/>
+    <path d="M173 578L539 399Q558 390 578 398L1007 577Q1030 587 1008 600L627 785Q608 794 588 786L173 607Q150 597 173 578Z" fill="url(#hep-base-top)" stroke="#DDE9F2" stroke-width="2"/>
+    <path d="M222 576L547 419L953 588L617 750L222 576Z" fill="url(#hep-grid)" opacity=".4"/>
+    <path d="M257 644L590 790L627 785L1008 600V619L628 806Q610 815 590 808L174 626V607L257 644Z" fill="url(#hep-base-side)" opacity=".8"/>
+  </g>
+  <g fill="#FFFFFF" stroke="#B9CDD9" stroke-width="2">
+    <circle cx="218" cy="586" r="10"/><circle cx="591" cy="759" r="10"/><circle cx="956" cy="588" r="10"/>
+  </g>
+  <g fill="#8AABC0">
+    <circle cx="218" cy="586" r="3"/><circle cx="591" cy="759" r="3"/><circle cx="956" cy="588" r="3"/>
+  </g>
+
+  <!-- Engine cradle -->
+  <g filter="url(#hep-small-shadow)">
+    <path d="M330 596L620 714L789 632L497 515Z" fill="#DCE8EF"/>
+    <path d="M331 579L620 696L789 615L498 497Z" fill="url(#hep-white-metal)" stroke="#D4E2EB" stroke-width="2"/>
+    <path d="M406 602l56 23v35l-56-23zM672 646l48-23v31l-48 24z" fill="#C9DBE6"/>
+    <path d="M414 595l47 19v18l-47-19zM675 639l40-19v17l-40 19z" fill="#F9FCFE" stroke="#BFCFD9"/>
+  </g>
+
+  <!-- Transparent pharmaceutical cylinder -->
+  <g filter="url(#hep-small-shadow)">
+    <path d="M390 424C365 433 347 469 347 512s18 79 43 89l285 38V425Z" fill="url(#hep-cylinder)" stroke="#16B995" stroke-opacity=".72" stroke-width="3"/>
+    <ellipse cx="675" cy="532" rx="66" ry="107" fill="url(#hep-teal-glass)" stroke="#0FAE93" stroke-width="3"/>
+    <ellipse cx="676" cy="532" rx="48" ry="83" fill="#EFFFFA" fill-opacity=".3" stroke="#8AFADE" stroke-opacity=".8" stroke-width="2"/>
+    <ellipse cx="390" cy="512" rx="66" ry="91" fill="url(#hep-teal-glass)" stroke="#36D6B0" stroke-width="3"/>
+    <ellipse cx="390" cy="512" rx="50" ry="70" fill="#E9FFF9" fill-opacity=".52" stroke="#16B995" stroke-opacity=".65" stroke-width="2"/>
+    <path d="M384 438L662 461C678 463 690 481 696 501L410 478C404 459 395 445 384 438Z" fill="url(#hep-cylinder-highlight)" mask="url(#hep-cylinder-fade)"/>
+    <path d="M431 447L431 585M596 437L596 624" stroke="#FFFFFF" stroke-opacity=".5" stroke-width="5"/>
+    <path d="M439 451L439 587M605 439L605 625" stroke="#0F9E88" stroke-opacity=".28" stroke-width="2"/>
+
+    <!-- Internal cartridge and turbine -->
+    <path d="M432 484L588 497L588 565L433 552Z" fill="#FFFFFF" fill-opacity=".32" stroke="#E9FFFA" stroke-opacity=".9" stroke-width="2"/>
+    <path d="M464 496l81 7v42l-81-7z" fill="#25D3A1" fill-opacity=".26" stroke="#25D3A1" stroke-opacity=".65"/>
+    <path d="M479 513l50 4" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" opacity=".85"/>
+    <circle cx="632" cy="531" r="27" fill="#0F9B85" fill-opacity=".25" stroke="#B4FFEA" stroke-width="2"/>
+    <path d="M632 506l9 19 19 6-19 8-9 19-8-19-20-8 20-6z" fill="#FFFFFF" fill-opacity=".72"/>
+
+    <!-- Nozzle -->
+    <path d="M346 479L300 488C287 491 279 506 279 526s8 35 21 38l46 10Z" fill="url(#hep-white-metal)" stroke="#B8D5E3" stroke-width="2"/>
+    <ellipse cx="300" cy="526" rx="23" ry="38" fill="#D7F9F0" stroke="#25D3A1" stroke-width="3"/>
+    <path d="M292 505l-42 9v29l42 9c8-7 12-15 12-24s-4-17-12-23z" fill="url(#hep-teal-glass)" stroke="#13AE90" stroke-width="2"/>
+    <ellipse cx="252" cy="528" rx="12" ry="15" fill="#25D3A1" opacity=".7"/>
+  </g>
+
+  <!-- AI processor above engine -->
+  <g filter="url(#hep-shadow)">
+    <path d="M424 265L616 206Q630 202 644 208L758 258Q773 265 760 274L568 337Q554 342 539 335L424 282Q407 274 424 265Z" fill="url(#hep-blue-glass)" stroke="#2878FF" stroke-width="3"/>
+    <path d="M414 280L414 344Q414 356 427 362L539 414Q553 421 568 416L758 352Q770 348 770 335V271Q769 282 757 287L568 350Q553 355 539 348L425 297Q414 292 414 280Z" fill="url(#hep-blue-edge)" stroke="#1C61C3" stroke-width="2"/>
+    <path d="M430 299L539 349Q553 356 568 351L754 290V333L565 396Q554 400 543 395L430 343Z" fill="#EAF7FF" fill-opacity=".58"/>
+    <path d="M448 271L616 220Q629 216 641 222L728 260L558 315Q550 318 541 314Z" fill="#EAFBFF" stroke="#B9E8FF" stroke-width="3"/>
+    <path d="M470 278L616 233L707 272L559 320Z" fill="#FFFFFF"/>
+    <g clip-path="url(#hep-processor-screen-clip)">
+      <path d="M452 301L628 247" stroke="#37C8F5" stroke-opacity=".22" stroke-width="14"/>
+      <path d="M497 295l28-9 14 6 31-10 16 7 37-12" fill="none" stroke="#25D3A1" stroke-width="4" stroke-linecap="round"/>
+      <circle cx="525" cy="286" r="5" fill="#25D3A1"/><circle cx="570" cy="282" r="5" fill="#37C8F5"/><circle cx="623" cy="277" r="5" fill="#2878FF"/>
+    </g>
+    <path d="M444 327l20 9v12l-20-9z" fill="#FF766A"/>
+    <path d="M472 339l28 13v12l-28-13z" fill="#25D3A1"/>
+    <circle cx="721" cy="327" r="10" fill="#D5E7F1" stroke="#FFFFFF" stroke-width="2"/>
+    <circle cx="684" cy="340" r="8" fill="#37C8F5" fill-opacity=".55"/>
+    <path d="M481 396v41M701 367v62" stroke="#90B7CB" stroke-width="8" stroke-linecap="round"/>
+    <path d="M481 394v43M701 365v64" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- AI signal core -->
+  <g filter="url(#hep-glow)">
+    <circle cx="592" cy="274" r="15" fill="url(#hep-core)"/>
+    <circle cx="592" cy="274" r="26" fill="none" stroke="#37C8F5" stroke-opacity=".45"/>
+  </g>
+
+  <!-- Left floating prescription panel -->
+  <g filter="url(#hep-small-shadow)">
+    <path d="M151 235L337 193Q348 191 348 203V337Q348 349 337 351L151 393Q140 395 140 383V249Q140 237 151 235Z" fill="url(#hep-screen)" stroke="#7DE8D0" stroke-width="2"/>
+    <path d="M158 250L330 211V330L158 368Z" fill="#FFFFFF" fill-opacity=".18"/>
+    <circle cx="198" cy="291" r="25" fill="#25D3A1" fill-opacity=".18" stroke="#25D3A1" stroke-width="2"/>
+    <path d="M198 275v32M182 291h32" stroke="#25D3A1" stroke-width="5" stroke-linecap="round"/>
+    <path d="M241 270l68-15M241 286l53-12M241 322l75-17" stroke="#2878FF" stroke-opacity=".62" stroke-width="5" stroke-linecap="round"/>
+    <path d="M241 304l29-7" stroke="#25D3A1" stroke-width="5" stroke-linecap="round"/>
+    <path d="M242 341l11 5 11-16 12 3 13-20 18 2" fill="none" stroke="#37C8F5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M245 386v76" stroke="#A4C0D0" stroke-width="5"/>
+    <ellipse cx="245" cy="469" rx="28" ry="10" fill="#D4E2EA"/>
+  </g>
+
+  <!-- Right diagnostic glass panel -->
+  <g filter="url(#hep-small-shadow)">
+    <path d="M840 216L1028 269Q1038 272 1038 284V419Q1038 431 1028 428L840 375Q830 372 830 360V226Q830 214 840 216Z" fill="url(#hep-screen)" stroke="#76DDF7" stroke-width="2"/>
+    <path d="M851 242l70 20M851 257l46 13" stroke="#2878FF" stroke-opacity=".65" stroke-width="5" stroke-linecap="round"/>
+    <path d="M853 310l24 7 14-16 20 30 21-44 18 49 20-10 29 9" fill="none" stroke="#25D3A1" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M853 350l154 43" stroke="#2878FF" stroke-opacity=".16" stroke-width="2"/>
+    <circle cx="994" cy="288" r="15" fill="#2878FF" fill-opacity=".14" stroke="#2878FF"/>
+    <path d="M988 288l5 5 9-12" fill="none" stroke="#2878FF" stroke-width="3" stroke-linecap="round"/>
+    <path d="M932 401v63" stroke="#A4C0D0" stroke-width="5"/>
+    <ellipse cx="932" cy="469" rx="27" ry="10" fill="#D4E2EA"/>
+  </g>
+
+  <!-- Clinician workstation -->
+  <g filter="url(#hep-small-shadow)">
+    <path d="M746 666L852 620L957 661L848 711Z" fill="#DCE8EF"/>
+    <path d="M746 651L852 607L957 648L848 697Z" fill="url(#hep-white-metal)" stroke="#C9DCE7" stroke-width="2"/>
+    <path d="M776 650L850 620L925 649L848 682Z" fill="#2878FF" fill-opacity=".2" stroke="#2878FF" stroke-opacity=".5" stroke-width="2"/>
+    <path d="M786 642L852 615L914 640" fill="none" stroke="#FFFFFF" stroke-width="3"/>
+  </g>
+
+  <!-- Clinician figure -->
+  <g filter="url(#hep-small-shadow)">
+    <ellipse cx="852" cy="614" rx="23" ry="10" fill="#234B68" opacity=".15"/>
+    <circle cx="852" cy="460" r="24" fill="#FFD9C6"/>
+    <path d="M832 452c3-18 13-28 28-24 13 4 18 16 15 29-9-5-16-14-19-21-5 11-13 18-24 19z" fill="url(#hep-dark)"/>
+    <path d="M821 491Q852 472 883 492L874 564H830Z" fill="#EEF9FF" stroke="#BFE8F7" stroke-width="2"/>
+    <path d="M839 483l13 19 14-19" fill="#37C8F5" fill-opacity=".36" stroke="#37C8F5"/>
+    <path d="M852 503v53" stroke="#2878FF" stroke-opacity=".32" stroke-width="2"/>
+    <path d="M829 498l-28 47M876 500l28 40" stroke="#D7F4FE" stroke-width="15" stroke-linecap="round"/>
+    <path d="M801 545l-17 28M904 540l22 18" stroke="#FFD9C6" stroke-width="10" stroke-linecap="round"/>
+    <path d="M833 559l-4 53M870 559l5 53" stroke="#2878FF" stroke-width="18" stroke-linecap="round"/>
+    <path d="M829 611l-13 6M875 612l15 3" stroke="#28567A" stroke-width="11" stroke-linecap="round"/>
+    <circle cx="784" cy="574" r="6" fill="#FFD9C6"/><circle cx="927" cy="559" r="6" fill="#FFD9C6"/>
+  </g>
+
+  <!-- Portable console near clinician -->
+  <g filter="url(#hep-small-shadow)">
+    <path d="M735 543L794 523L830 540L770 562Z" fill="#FFFFFF" stroke="#B9D6E5" stroke-width="2"/>
+    <path d="M754 502L810 486Q818 484 818 493V534L760 554V511Q760 505 754 502Z" fill="url(#hep-screen)" stroke="#37C8F5" stroke-width="2"/>
+    <path d="M774 515l27-8M774 525l18-5" stroke="#2878FF" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="805" cy="525" r="5" fill="#25D3A1"/>
+  </g>
+
+  <!-- Data links and particles -->
+  <g fill="none" stroke-linecap="round">
+    <path d="M348 310C414 318 442 292 478 285" stroke="#25D3A1" stroke-opacity=".42" stroke-width="2" stroke-dasharray="5 10"/>
+    <path d="M762 282C802 281 819 296 831 310" stroke="#37C8F5" stroke-opacity=".5" stroke-width="2" stroke-dasharray="5 10"/>
+    <path d="M698 520C741 514 765 521 782 541" stroke="#2878FF" stroke-opacity=".36" stroke-width="2" stroke-dasharray="5 9"/>
+  </g>
+  <g filter="url(#hep-glow)">
+    <circle cx="394" cy="308" r="5" fill="#25D3A1"/>
+    <circle cx="803" cy="289" r="5" fill="#37C8F5"/>
+    <circle cx="738" cy="519" r="5" fill="#2878FF"/>
+  </g>
+  <g filter="url(#hep-small-shadow)">
+    <path d="M171 690l18-8 18 8-18 9z" fill="#25D3A1" fill-opacity=".56"/><path d="M189 699v17l18-9v-17z" fill="#0DA987" fill-opacity=".7"/><path d="M171 690v17l18 9v-17z" fill="#72EACB" fill-opacity=".62"/>
+    <path d="M1030 536l14-6 14 6-14 7z" fill="#37C8F5" fill-opacity=".48"/><path d="M1044 543v14l14-7v-14z" fill="#2878FF" fill-opacity=".52"/><path d="M1030 536v14l14 7v-14z" fill="#9FE9FB" fill-opacity=".65"/>
+    <circle cx="109" cy="571" r="12" fill="url(#hep-orb)"/>
+    <circle cx="1080" cy="683" r="9" fill="url(#hep-core)"/>
+  </g>
+</svg>

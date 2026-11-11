@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none" role="img" aria-labelledby="molecule-title molecule-desc">
+  <title id="molecule-title">Medical molecule</title>
+  <desc id="molecule-desc">A three-dimensional molecular network built from luminous blue and green atoms.</desc>
+  <defs>
+    <radialGradient id="molecule-blue" cx="0" cy="0" r="1" gradientTransform="translate(26 25) rotate(48) scale(15)">
+      <stop stop-color="#fff" stop-opacity=".95"/>
+      <stop offset=".32" stop-color="#37C8F5" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#2878FF"/>
+    </radialGradient>
+    <radialGradient id="molecule-green" cx="0" cy="0" r="1" gradientTransform="translate(44 19) rotate(55) scale(11)">
+      <stop stop-color="#fff"/>
+      <stop offset=".3" stop-color="#8AF0D2"/>
+      <stop offset="1" stop-color="#25D3A1"/>
+    </radialGradient>
+    <radialGradient id="molecule-pale" cx="0" cy="0" r="1" gradientTransform="translate(22 45) rotate(50) scale(10)">
+      <stop stop-color="#fff"/>
+      <stop offset="1" stop-color="#37C8F5" stop-opacity=".36"/>
+    </radialGradient>
+    <linearGradient id="molecule-bond" x1="13" y1="47" x2="52" y2="15" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#18354F" stop-opacity=".7"/>
+      <stop offset=".48" stop-color="#2878FF"/>
+      <stop offset="1" stop-color="#25D3A1"/>
+    </linearGradient>
+    <filter id="molecule-shadow" x="6" y="7" width="53" height="51" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="2.5" stdDeviation="2.3" flood-color="#2878FF" flood-opacity=".18"/>
+    </filter>
+  </defs>
+  <g filter="url(#molecule-shadow)">
+    <path d="m15.5 23.2 15.2 8.55M30.7 31.75 43.9 17.8M30.7 31.75l-8.5 15.1M30.7 31.75l17.2 9.85M22.2 46.85l25.7-5.25" stroke="#fff" stroke-opacity=".94" stroke-width="5" stroke-linecap="round"/>
+    <path d="m15.5 23.2 15.2 8.55M30.7 31.75 43.9 17.8M30.7 31.75l-8.5 15.1M30.7 31.75l17.2 9.85M22.2 46.85l25.7-5.25" stroke="url(#molecule-bond)" stroke-width="2.4" stroke-linecap="round"/>
+    <circle cx="30.7" cy="31.75" r="10.2" fill="url(#molecule-blue)" stroke="#2878FF" stroke-width="1.5"/>
+    <circle cx="43.9" cy="17.8" r="7.2" fill="url(#molecule-green)" stroke="#25D3A1" stroke-width="1.5"/>
+    <circle cx="47.9" cy="41.6" r="6.7" fill="url(#molecule-blue)" stroke="#2878FF" stroke-width="1.4"/>
+    <circle cx="22.2" cy="46.85" r="6.3" fill="url(#molecule-pale)" stroke="#37C8F5" stroke-width="1.4"/>
+    <circle cx="15.5" cy="23.2" r="5.5" fill="url(#molecule-green)" stroke="#25D3A1" stroke-width="1.4"/>
+    <ellipse cx="27.2" cy="27.5" rx="2.6" ry="1.8" transform="rotate(-35 27.2 27.5)" fill="#fff" fill-opacity=".72"/>
+  </g>
+  <circle cx="51.8" cy="12.2" r="2" fill="#37C8F5" fill-opacity=".2" stroke="#37C8F5" stroke-width="1.1"/>
+  <circle cx="12.2" cy="49.8" r="1.7" fill="#25D3A1" fill-opacity=".22"/>
+</svg>

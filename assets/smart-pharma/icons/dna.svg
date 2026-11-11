@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none" role="img" aria-labelledby="dna-title dna-desc">
+  <title id="dna-title">Genomic medicine</title>
+  <desc id="dna-desc">A luminous blue and green DNA double helix for precision medicine.</desc>
+  <defs>
+    <linearGradient id="dna-blue" x1="17" y1="8" x2="48" y2="56" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#37C8F5"/>
+      <stop offset="1" stop-color="#2878FF"/>
+    </linearGradient>
+    <linearGradient id="dna-green" x1="46" y1="8" x2="17" y2="56" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#25D3A1"/>
+      <stop offset="1" stop-color="#37C8F5"/>
+    </linearGradient>
+    <linearGradient id="dna-membrane" x1="20" y1="20" x2="44" y2="44" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2878FF" stop-opacity=".2"/>
+      <stop offset="1" stop-color="#25D3A1" stop-opacity=".24"/>
+    </linearGradient>
+  </defs>
+  <path d="M18 8.5c0 11.13 28 12.37 28 23.5S18 44.37 18 55.5" stroke="url(#dna-blue)" stroke-width="3.25" stroke-linecap="round"/>
+  <path d="M46 8.5c0 11.13-28 12.37-28 23.5s28 12.37 28 23.5" stroke="url(#dna-green)" stroke-width="3.25" stroke-linecap="round"/>
+  <path d="M22.35 15.1h19.3M20.25 23.6h23.5M20.25 40.4h23.5M22.35 48.9h19.3" stroke="#18354F" stroke-opacity=".48" stroke-width="1.75" stroke-linecap="round"/>
+  <path d="M18.2 31.98h27.6" stroke="url(#dna-membrane)" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="18" cy="8.5" r="2.25" fill="#37C8F5"/>
+  <circle cx="46" cy="8.5" r="2.25" fill="#25D3A1"/>
+  <circle cx="18" cy="55.5" r="2.25" fill="#2878FF"/>
+  <circle cx="46" cy="55.5" r="2.25" fill="#37C8F5"/>
+  <circle cx="32" cy="32" r="3" fill="#fff" fill-opacity=".76" stroke="#37C8F5" stroke-width="1.5"/>
+</svg>

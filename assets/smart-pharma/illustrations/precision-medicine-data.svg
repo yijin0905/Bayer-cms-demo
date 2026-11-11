@@ -1,0 +1,281 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" fill="none" role="img" aria-labelledby="pmd-title pmd-desc">
+  <title id="pmd-title">Precision medicine data analysis</title>
+  <desc id="pmd-desc">A futuristic precision medicine scene with a luminous DNA helix, patient digital twin, circular scan rings, genomic dashboard, and personalized capsule dose data.</desc>
+  <defs>
+    <linearGradient id="pmd-deck" x1="226" y1="408" x2="909" y2="790" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset=".54" stop-color="#F3FAFD"/>
+      <stop offset="1" stop-color="#E5EFF5"/>
+    </linearGradient>
+    <linearGradient id="pmd-deck-edge" x1="289" y1="617" x2="687" y2="850" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D8E8F0"/>
+      <stop offset=".6" stop-color="#ADC7D6"/>
+      <stop offset="1" stop-color="#EDF6FA"/>
+    </linearGradient>
+    <linearGradient id="pmd-blue-glass" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FFFFFF" stop-opacity=".94"/>
+      <stop offset=".42" stop-color="#C7F2FF" stop-opacity=".65"/>
+      <stop offset="1" stop-color="#2878FF" stop-opacity=".18"/>
+    </linearGradient>
+    <linearGradient id="pmd-green-glass" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FFFFFF" stop-opacity=".94"/>
+      <stop offset=".48" stop-color="#A5F6DC" stop-opacity=".65"/>
+      <stop offset="1" stop-color="#25D3A1" stop-opacity=".18"/>
+    </linearGradient>
+    <linearGradient id="pmd-dna-a" x1="336" y1="187" x2="493" y2="674" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#37C8F5"/>
+      <stop offset=".48" stop-color="#2878FF"/>
+      <stop offset="1" stop-color="#25D3A1"/>
+    </linearGradient>
+    <linearGradient id="pmd-dna-b" x1="489" y1="188" x2="333" y2="673" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#25D3A1"/>
+      <stop offset=".5" stop-color="#37C8F5"/>
+      <stop offset="1" stop-color="#2878FF"/>
+    </linearGradient>
+    <linearGradient id="pmd-scan" x1="519" y1="329" x2="832" y2="658" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#37C8F5"/>
+      <stop offset=".5" stop-color="#2878FF"/>
+      <stop offset="1" stop-color="#25D3A1"/>
+    </linearGradient>
+    <linearGradient id="pmd-body" x1="637" y1="287" x2="698" y2="661" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF" stop-opacity=".95"/>
+      <stop offset=".2" stop-color="#B7F2FF" stop-opacity=".68"/>
+      <stop offset=".62" stop-color="#2878FF" stop-opacity=".24"/>
+      <stop offset="1" stop-color="#25D3A1" stop-opacity=".2"/>
+    </linearGradient>
+    <linearGradient id="pmd-body-edge" x1="623" y1="330" x2="728" y2="650" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset=".24" stop-color="#37C8F5"/>
+      <stop offset=".68" stop-color="#2878FF"/>
+      <stop offset="1" stop-color="#25D3A1"/>
+    </linearGradient>
+    <linearGradient id="pmd-capsule-blue" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#EAFBFF"/>
+      <stop offset=".45" stop-color="#37C8F5"/>
+      <stop offset="1" stop-color="#2878FF"/>
+    </linearGradient>
+    <linearGradient id="pmd-capsule-green" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#EEFFF9"/>
+      <stop offset=".52" stop-color="#25D3A1"/>
+      <stop offset="1" stop-color="#12A984"/>
+    </linearGradient>
+    <linearGradient id="pmd-metal" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset=".48" stop-color="#DAE8EF"/>
+      <stop offset=".72" stop-color="#AFC8D6"/>
+      <stop offset="1" stop-color="#F8FCFE"/>
+    </linearGradient>
+    <radialGradient id="pmd-ambient" cx="0" cy="0" r="1" gradientTransform="translate(596 454) rotate(90) scale(367 492)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#37C8F5" stop-opacity=".13"/>
+      <stop offset=".64" stop-color="#2878FF" stop-opacity=".035"/>
+      <stop offset="1" stop-color="#2878FF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="pmd-core-glow" cx="0" cy="0" r="1" gradientTransform="translate(670 452) rotate(90) scale(182 141)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF" stop-opacity=".94"/>
+      <stop offset=".48" stop-color="#C7F5FF" stop-opacity=".36"/>
+      <stop offset="1" stop-color="#37C8F5" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="pmd-grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.25" fill="#2878FF" fill-opacity=".12"/>
+    </pattern>
+    <filter id="pmd-shadow" x="-30%" y="-30%" width="160%" height="190%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="22" stdDeviation="24" flood-color="#4B7790" flood-opacity=".18"/>
+    </filter>
+    <filter id="pmd-object-shadow" x="-40%" y="-40%" width="180%" height="200%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="13" stdDeviation="12" flood-color="#356A8F" flood-opacity=".17"/>
+    </filter>
+    <filter id="pmd-panel-shadow" x="-30%" y="-40%" width="160%" height="190%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#2878FF" flood-opacity=".14"/>
+    </filter>
+    <filter id="pmd-glow" x="-100%" y="-100%" width="300%" height="300%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="5" result="pmd-glow-blur"/>
+      <feMerge>
+        <feMergeNode in="pmd-glow-blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="pmd-soft-blur" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="19"/>
+    </filter>
+    <mask id="pmd-body-mask">
+      <rect width="1200" height="900" fill="#000000"/>
+      <path d="M672 279c29 0 51 23 51 52 0 20-10 37-25 46 48 16 82 61 82 114v136c0 32-26 58-58 58H621c-32 0-58-26-58-58V491c0-53 34-98 82-114-15-9-25-26-25-46 0-29 23-52 52-52Z" fill="#FFFFFF"/>
+    </mask>
+    <clipPath id="pmd-dashboard-clip">
+      <path d="M19 0h242l19 19v174H19L0 174V19L19 0Z"/>
+    </clipPath>
+  </defs>
+
+  <rect width="1200" height="900" fill="#FFFFFF"/>
+  <ellipse cx="602" cy="453" rx="492" ry="367" fill="url(#pmd-ambient)"/>
+  <ellipse cx="602" cy="791" rx="407" ry="42" fill="#7797AA" fill-opacity=".12" filter="url(#pmd-soft-blur)"/>
+
+  <!-- Genomic dashboard -->
+  <g transform="translate(805 105)" filter="url(#pmd-panel-shadow)">
+    <path d="M19 0h242l19 19v174H19L0 174V19L19 0Z" fill="url(#pmd-blue-glass)" stroke="#FFFFFF" stroke-width="3"/>
+    <g clip-path="url(#pmd-dashboard-clip)">
+      <path d="M-18 190 182-10h54L29 197h-47v-7Z" fill="#FFFFFF" fill-opacity=".3"/>
+      <circle cx="248" cy="24" r="70" fill="#25D3A1" fill-opacity=".06"/>
+    </g>
+    <rect x="24" y="24" width="89" height="8" rx="4" fill="#18354F" fill-opacity=".18"/>
+    <rect x="24" y="40" width="53" height="5" rx="2.5" fill="#2878FF" fill-opacity=".46"/>
+    <circle cx="226" cy="36" r="13" fill="#25D3A1" fill-opacity=".18"/>
+    <path d="m220 36 4 4 8-10" stroke="#25D3A1" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M25 78h229M25 112h229M25 146h229" stroke="#2878FF" stroke-opacity=".1"/>
+    <path d="M31 159c20-8 29-44 48-40 19 3 23 24 43 19 20-4 23-53 47-48 22 4 26 42 47 35 18-6 21-29 39-31" stroke="url(#pmd-scan)" stroke-width="4" stroke-linecap="round"/>
+    <path d="M31 144c20-1 33-13 49-10 20 4 25 17 42 11 17-6 31-27 48-23 19 4 23 22 44 20 16-2 23-12 41-11" stroke="#25D3A1" stroke-opacity=".35" stroke-width="2" stroke-linecap="round"/>
+    <g fill="#FFFFFF" stroke-width="2">
+      <circle cx="79" cy="119" r="5" stroke="#37C8F5"/>
+      <circle cx="169" cy="90" r="5" stroke="#2878FF"/>
+      <circle cx="216" cy="125" r="5" stroke="#25D3A1"/>
+    </g>
+    <path d="M31 62h41M82 62h27M119 62h62" stroke="#B9CFDB" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  <path d="M813 278c-43 31-65 58-80 91" stroke="#2878FF" stroke-opacity=".34" stroke-width="2" stroke-dasharray="6 10"/>
+
+  <!-- Variant cards -->
+  <g transform="translate(128 174)" filter="url(#pmd-panel-shadow)">
+    <path d="M16 0h177l16 16v121l-16 16H16L0 137V16L16 0Z" fill="url(#pmd-green-glass)" stroke="#FFFFFF" stroke-width="3"/>
+    <path d="M25 29h72" stroke="#18354F" stroke-opacity=".17" stroke-width="8" stroke-linecap="round"/>
+    <path d="M25 45h43" stroke="#25D3A1" stroke-opacity=".5" stroke-width="5" stroke-linecap="round"/>
+    <g transform="translate(25 68)">
+      <rect width="32" height="32" rx="8" fill="#FFFFFF" fill-opacity=".68"/>
+      <path d="M9 11h14M9 16h14M9 21h14" stroke="#2878FF" stroke-width="2.5" stroke-linecap="round"/>
+      <circle cx="9" cy="11" r="2" fill="#25D3A1"/>
+      <circle cx="23" cy="16" r="2" fill="#37C8F5"/>
+    </g>
+    <path d="M72 77h105M72 91h72" stroke="#B8CFDA" stroke-width="6" stroke-linecap="round"/>
+    <rect x="25" y="118" width="154" height="9" rx="4.5" fill="#D9EAF1"/>
+    <rect x="25" y="118" width="118" height="9" rx="4.5" fill="url(#pmd-scan)"/>
+  </g>
+  <path d="M335 301c35 20 49 42 57 73" stroke="#25D3A1" stroke-opacity=".34" stroke-width="2" stroke-dasharray="6 10"/>
+
+  <!-- Main isometric stage -->
+  <g filter="url(#pmd-shadow)">
+    <path d="m139 578 405-223 518 267v27L659 863 139 602v-24Z" fill="url(#pmd-deck-edge)"/>
+    <path d="m139 578 405-223 518 267-403 215-520-259Z" fill="url(#pmd-deck)" stroke="#FFFFFF" stroke-width="4" stroke-linejoin="round"/>
+    <path d="m178 578 367-202 479 247-367 194-479-239Z" fill="url(#pmd-grid)" opacity=".36"/>
+    <path d="M140 591 659 850l403-214" stroke="#A9C7D7" stroke-opacity=".52" stroke-width="2"/>
+  </g>
+
+  <!-- DNA analysis chamber -->
+  <g filter="url(#pmd-object-shadow)">
+    <ellipse cx="408" cy="698" rx="143" ry="61" fill="#638398" fill-opacity=".14"/>
+    <path d="M287 633v39c0 37 54 68 121 68s121-31 121-68v-39H287Z" fill="url(#pmd-deck-edge)" stroke="#C9DFE9" stroke-width="2"/>
+    <ellipse cx="408" cy="634" rx="121" ry="59" fill="url(#pmd-metal)" stroke="#FFFFFF" stroke-width="4"/>
+    <ellipse cx="408" cy="634" rx="94" ry="44" fill="#E9FAFF" stroke="#37C8F5" stroke-opacity=".42" stroke-width="3"/>
+    <ellipse cx="408" cy="634" rx="61" ry="28" fill="#FFFFFF" fill-opacity=".82" stroke="#25D3A1" stroke-opacity=".38" stroke-width="2"/>
+  </g>
+  <g opacity=".32">
+    <path d="M296 253 408 188l113 65v379l-113 65-112-65V253Z" fill="url(#pmd-blue-glass)" stroke="#37C8F5" stroke-width="2"/>
+    <path d="M296 253 408 318l113-65M408 318v379" stroke="#FFFFFF" stroke-width="2"/>
+  </g>
+  <g filter="url(#pmd-glow)">
+    <path d="M342 194c103 61 105 132 8 199-97 67-98 140 7 209 35 23 56 46 62 72" stroke="url(#pmd-dna-a)" stroke-width="10" stroke-linecap="round"/>
+    <path d="M477 194c-103 61-105 132-8 199 97 67 98 140-7 209-35 23-56 46-62 72" stroke="url(#pmd-dna-b)" stroke-width="10" stroke-linecap="round"/>
+  </g>
+  <g stroke-linecap="round">
+    <path d="m351 218 117 2" stroke="#37C8F5" stroke-opacity=".63" stroke-width="4"/>
+    <path d="m369 264 79 1" stroke="#2878FF" stroke-opacity=".53" stroke-width="4"/>
+    <path d="m390 310 38 1" stroke="#25D3A1" stroke-opacity=".62" stroke-width="4"/>
+    <path d="m357 356 103 1" stroke="#37C8F5" stroke-opacity=".58" stroke-width="4"/>
+    <path d="m340 402 138 1" stroke="#2878FF" stroke-opacity=".5" stroke-width="4"/>
+    <path d="m359 448 100 1" stroke="#25D3A1" stroke-opacity=".62" stroke-width="4"/>
+    <path d="m390 494 40 1" stroke="#37C8F5" stroke-opacity=".64" stroke-width="4"/>
+    <path d="m369 540 78 1" stroke="#2878FF" stroke-opacity=".52" stroke-width="4"/>
+    <path d="m349 586 119 1" stroke="#25D3A1" stroke-opacity=".58" stroke-width="4"/>
+    <path d="m379 631 60 1" stroke="#37C8F5" stroke-opacity=".56" stroke-width="4"/>
+  </g>
+  <g fill="#FFFFFF" stroke-width="3">
+    <circle cx="351" cy="218" r="7" stroke="#37C8F5"/>
+    <circle cx="448" cy="265" r="7" stroke="#2878FF"/>
+    <circle cx="390" cy="310" r="7" stroke="#25D3A1"/>
+    <circle cx="460" cy="357" r="7" stroke="#37C8F5"/>
+    <circle cx="340" cy="402" r="7" stroke="#2878FF"/>
+    <circle cx="459" cy="449" r="7" stroke="#25D3A1"/>
+    <circle cx="390" cy="494" r="7" stroke="#37C8F5"/>
+    <circle cx="447" cy="541" r="7" stroke="#2878FF"/>
+    <circle cx="349" cy="586" r="7" stroke="#25D3A1"/>
+    <circle cx="439" cy="632" r="7" stroke="#37C8F5"/>
+  </g>
+  <path d="M408 171v-34M400 145h16" stroke="#25D3A1" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Patient digital twin scanner -->
+  <g>
+    <ellipse cx="672" cy="684" rx="167" ry="75" fill="#52798F" fill-opacity=".14" filter="url(#pmd-soft-blur)"/>
+    <ellipse cx="672" cy="488" rx="173" ry="230" fill="url(#pmd-core-glow)"/>
+    <ellipse cx="672" cy="493" rx="172" ry="69" stroke="#37C8F5" stroke-opacity=".22" stroke-width="3"/>
+    <ellipse cx="672" cy="493" rx="134" ry="54" stroke="#2878FF" stroke-opacity=".32" stroke-width="3" stroke-dasharray="16 12"/>
+    <ellipse cx="672" cy="493" rx="98" ry="39" stroke="#25D3A1" stroke-opacity=".5" stroke-width="3"/>
+    <path d="M507 452c-20 8-33 21-33 41 0 31 37 54 91 65" stroke="url(#pmd-scan)" stroke-width="5" stroke-linecap="round"/>
+    <path d="M837 536c22-9 34-23 34-43 0-31-37-55-92-65" stroke="url(#pmd-scan)" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="475" cy="493" r="8" fill="#FFFFFF" stroke="#37C8F5" stroke-width="3" filter="url(#pmd-glow)"/>
+    <circle cx="870" cy="493" r="8" fill="#FFFFFF" stroke="#25D3A1" stroke-width="3" filter="url(#pmd-glow)"/>
+  </g>
+  <g filter="url(#pmd-object-shadow)">
+    <path d="M672 279c29 0 51 23 51 52 0 20-10 37-25 46 48 16 82 61 82 114v136c0 32-26 58-58 58H621c-32 0-58-26-58-58V491c0-53 34-98 82-114-15-9-25-26-25-46 0-29 23-52 52-52Z" fill="url(#pmd-body)" stroke="url(#pmd-body-edge)" stroke-width="4"/>
+    <g mask="url(#pmd-body-mask)" opacity=".48">
+      <path d="M528 394h292M528 429h292M528 464h292M528 499h292M528 534h292M528 569h292M528 604h292M528 639h292" stroke="#FFFFFF" stroke-width="2"/>
+      <path d="M550 326c79 62 168 80 260 76M536 573c95-41 181-35 273 7" stroke="#37C8F5" stroke-width="3"/>
+    </g>
+    <path d="M672 376v272M607 440c44 28 88 30 132 3M599 526c47-22 96-21 146 2" stroke="#2878FF" stroke-opacity=".28" stroke-width="2" stroke-dasharray="7 9"/>
+    <path d="M672 417c-20-23-50-7-50 19 0 36 50 62 50 62s50-26 50-62c0-26-30-42-50-19Z" fill="#FFFFFF" fill-opacity=".5" stroke="#25D3A1" stroke-width="3"/>
+    <path d="M641 454h13l8-19 11 37 9-25 8 7h14" stroke="url(#pmd-scan)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <g fill="#FFFFFF" stroke-width="3">
+      <circle cx="672" cy="391" r="7" stroke="#37C8F5"/>
+      <circle cx="607" cy="440" r="7" stroke="#2878FF"/>
+      <circle cx="739" cy="443" r="7" stroke="#25D3A1"/>
+      <circle cx="672" cy="527" r="7" stroke="#37C8F5"/>
+      <circle cx="612" cy="592" r="7" stroke="#25D3A1"/>
+      <circle cx="731" cy="598" r="7" stroke="#2878FF"/>
+    </g>
+    <path d="m672 391-65 49m65-49 67 52m-67 84-60 65m60-65 59 71" stroke="#2878FF" stroke-opacity=".35" stroke-width="2"/>
+    <path d="M638 303c14-17 39-22 59-10" stroke="#FFFFFF" stroke-opacity=".88" stroke-width="5" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(538 668)" filter="url(#pmd-object-shadow)">
+    <path d="m0 42 128-68 151 76-132 72L0 42Z" fill="url(#pmd-metal)" stroke="#FFFFFF" stroke-width="4"/>
+    <path d="M0 42v22l147 76 132-72V50l-132 72L0 42Z" fill="url(#pmd-deck-edge)"/>
+    <ellipse cx="145" cy="48" rx="83" ry="37" fill="#EAFBFF" stroke="#37C8F5" stroke-opacity=".35" stroke-width="2"/>
+    <ellipse cx="145" cy="48" rx="48" ry="21" fill="#FFFFFF" stroke="#25D3A1" stroke-opacity=".44" stroke-width="2"/>
+    <circle cx="31" cy="50" r="6" fill="#37C8F5"/>
+    <circle cx="49" cy="60" r="5" fill="#2878FF"/>
+    <circle cx="67" cy="69" r="4" fill="#25D3A1"/>
+  </g>
+
+  <!-- Dose recommendation module -->
+  <g transform="translate(842 560)" filter="url(#pmd-object-shadow)">
+    <ellipse cx="100" cy="173" rx="130" ry="38" fill="#547A91" fill-opacity=".14"/>
+    <path d="m0 113 99-54 126 63-104 57L0 113Z" fill="url(#pmd-metal)" stroke="#FFFFFF" stroke-width="4"/>
+    <path d="M0 113v24l121 62 104-58v-19l-104 57L0 113Z" fill="url(#pmd-deck-edge)"/>
+    <g transform="translate(45 71) rotate(17 69 30)">
+      <path d="M30 0h39v60H30C13 60 0 47 0 30S13 0 30 0Z" fill="url(#pmd-capsule-blue)" stroke="#FFFFFF" stroke-width="3"/>
+      <path d="M69 0h39c17 0 30 13 30 30s-13 30-30 30H69V0Z" fill="url(#pmd-capsule-green)" stroke="#FFFFFF" stroke-width="3"/>
+      <path d="M69 3v54" stroke="#FFFFFF" stroke-opacity=".82" stroke-width="3"/>
+      <path d="M16 15c10-10 23-12 37-8" stroke="#FFFFFF" stroke-opacity=".65" stroke-width="5" stroke-linecap="round"/>
+    </g>
+    <g transform="translate(142 10)">
+      <path d="M10 0h82l10 10v67l-10 10H10L0 77V10L10 0Z" fill="url(#pmd-green-glass)" stroke="#FFFFFF" stroke-width="3"/>
+      <path d="M17 23h45" stroke="#18354F" stroke-opacity=".16" stroke-width="7" stroke-linecap="round"/>
+      <path d="M17 39h27" stroke="#25D3A1" stroke-opacity=".55" stroke-width="5" stroke-linecap="round"/>
+      <circle cx="76" cy="27" r="10" fill="#25D3A1" fill-opacity=".18"/>
+      <path d="m71 27 4 4 7-9" stroke="#25D3A1" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="17" y="57" width="68" height="8" rx="4" fill="#D7E8EF"/>
+      <rect x="17" y="57" width="51" height="8" rx="4" fill="#2878FF" fill-opacity=".66"/>
+    </g>
+  </g>
+  <path d="M801 615c29-18 54-24 75-22" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round"/>
+  <path d="M801 615c29-18 54-24 75-22" stroke="url(#pmd-scan)" stroke-opacity=".65" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="801" cy="615" r="8" fill="#FFFFFF" stroke="#2878FF" stroke-width="3"/>
+
+  <!-- Floating molecular and status details -->
+  <g filter="url(#pmd-glow)">
+    <circle cx="253" cy="453" r="8" fill="#FFFFFF" stroke="#37C8F5" stroke-width="3"/>
+    <circle cx="225" cy="429" r="6" fill="#25D3A1"/>
+    <circle cx="218" cy="473" r="5" fill="#2878FF"/>
+    <path d="m231 433 17 15m-23 21 22-12" stroke="#9CCCDD" stroke-width="2"/>
+    <circle cx="1061" cy="460" r="7" fill="#25D3A1"/>
+    <path d="M1058 433v14M1051 440h14" stroke="#25D3A1" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="333" cy="756" r="6" fill="#37C8F5"/>
+    <circle cx="1034" cy="744" r="5" fill="#2878FF"/>
+  </g>
+</svg>

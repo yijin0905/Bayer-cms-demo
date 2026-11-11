@@ -1,0 +1,396 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <symbol id="ai-diagnosis" viewBox="0 0 64 64" fill="none" role="img" aria-labelledby="ai-diagnosis-title ai-diagnosis-desc">
+    <title id="ai-diagnosis-title">AI diagnosis</title>
+      <desc id="ai-diagnosis-desc">A translucent diagnostic scanner surrounding an artificial intelligence neural core.</desc>
+      <defs>
+        <linearGradient id="ai-diagnosis-shell" x1="13" y1="12" x2="50" y2="52" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#37C8F5" stop-opacity=".24"/>
+          <stop offset=".55" stop-color="#2878FF" stop-opacity=".08"/>
+          <stop offset="1" stop-color="#25D3A1" stop-opacity=".2"/>
+        </linearGradient>
+        <linearGradient id="ai-diagnosis-stroke" x1="11" y1="11" x2="53" y2="53" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#37C8F5"/>
+          <stop offset=".5" stop-color="#2878FF"/>
+          <stop offset="1" stop-color="#25D3A1"/>
+        </linearGradient>
+        <radialGradient id="ai-diagnosis-core" cx="0" cy="0" r="1" gradientTransform="translate(29 27) rotate(53) scale(17)">
+          <stop stop-color="#fff" stop-opacity=".92"/>
+          <stop offset=".5" stop-color="#37C8F5" stop-opacity=".3"/>
+          <stop offset="1" stop-color="#2878FF" stop-opacity=".12"/>
+        </radialGradient>
+        <filter id="ai-diagnosis-shadow" x="5" y="6" width="54" height="54" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+          <feDropShadow dx="0" dy="2" stdDeviation="2.2" flood-color="#2878FF" flood-opacity=".16"/>
+        </filter>
+      </defs>
+      <g filter="url(#ai-diagnosis-shadow)">
+        <path d="M32 8.5c12.98 0 23.5 10.52 23.5 23.5S44.98 55.5 32 55.5 8.5 44.98 8.5 32 19.02 8.5 32 8.5Z" fill="url(#ai-diagnosis-shell)" stroke="url(#ai-diagnosis-stroke)" stroke-width="1.6" stroke-dasharray="2.5 3.8"/>
+        <path d="M17.5 24.5v-4a3 3 0 0 1 3-3h4M39.5 17.5h4a3 3 0 0 1 3 3v4M46.5 39.5v4a3 3 0 0 1-3 3h-4M24.5 46.5h-4a3 3 0 0 1-3-3v-4" stroke="#2878FF" stroke-width="2.2" stroke-linecap="round"/>
+        <path d="M31.8 20.5c-6.24 0-11.3 4.84-11.3 10.82 0 3.5 1.74 6.62 4.44 8.6v3.58h13.72v-3.7a10.62 10.62 0 0 0 4.44-8.48c0-5.98-5.06-10.82-11.3-10.82Z" fill="url(#ai-diagnosis-core)" stroke="#18354F" stroke-width="1.5" stroke-linejoin="round"/>
+        <path d="M26.5 44v2.35c0 1.19.96 2.15 2.15 2.15h6.2c1.19 0 2.15-.96 2.15-2.15V44" fill="#fff" fill-opacity=".72" stroke="#18354F" stroke-width="1.5"/>
+        <path d="m27.1 30.1 4.45-3.2 4.6 3.35-1.75 5.3h-5.56l-1.74-5.45Z" fill="#2878FF" fill-opacity=".12" stroke="#2878FF" stroke-width="1.5" stroke-linejoin="round"/>
+        <path d="m27.1 30.1 1.74 5.45M31.55 26.9l2.85 8.65M36.15 30.25l-7.31 5.3" stroke="#37C8F5" stroke-width="1.1" stroke-linecap="round"/>
+        <circle cx="27.1" cy="30.1" r="2" fill="#25D3A1" stroke="#fff" stroke-width="1"/>
+        <circle cx="31.55" cy="26.9" r="2" fill="#2878FF" stroke="#fff" stroke-width="1"/>
+        <circle cx="36.15" cy="30.25" r="2" fill="#37C8F5" stroke="#fff" stroke-width="1"/>
+        <circle cx="28.84" cy="35.55" r="2" fill="#37C8F5" stroke="#fff" stroke-width="1"/>
+        <circle cx="34.4" cy="35.55" r="2" fill="#25D3A1" stroke="#fff" stroke-width="1"/>
+      </g>
+      <path d="M47.5 28.5h6M50.5 25.5v6" stroke="#25D3A1" stroke-width="2" stroke-linecap="round"/>
+      <circle cx="50.5" cy="28.5" r="4.5" fill="#25D3A1" fill-opacity=".1"/>
+  </symbol>
+  <symbol id="capsule" viewBox="0 0 64 64" fill="none" role="img" aria-labelledby="capsule-title capsule-desc">
+    <title id="capsule-title">Smart capsule</title>
+      <desc id="capsule-desc">A polished translucent blue and green medical capsule with a digital particle core.</desc>
+      <defs>
+        <linearGradient id="capsule-blue" x1="16" y1="47" x2="35" y2="22" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#2878FF" stop-opacity=".92"/>
+          <stop offset="1" stop-color="#37C8F5" stop-opacity=".38"/>
+        </linearGradient>
+        <linearGradient id="capsule-green" x1="34" y1="34" x2="48" y2="16" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#25D3A1" stop-opacity=".34"/>
+          <stop offset="1" stop-color="#DFFFF6" stop-opacity=".78"/>
+        </linearGradient>
+        <linearGradient id="capsule-rim" x1="12" y1="50" x2="52" y2="12" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#18354F"/>
+          <stop offset=".42" stop-color="#2878FF"/>
+          <stop offset="1" stop-color="#25D3A1"/>
+        </linearGradient>
+        <filter id="capsule-shadow" x="7" y="8" width="52" height="51" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+          <feDropShadow dx="0" dy="3" stdDeviation="2.5" flood-color="#18354F" flood-opacity=".17"/>
+        </filter>
+        <clipPath id="capsule-clip">
+          <rect x="10" y="22" width="44" height="20" rx="10"/>
+        </clipPath>
+      </defs>
+      <g filter="url(#capsule-shadow)">
+        <g transform="rotate(-40 32 32)">
+          <g clip-path="url(#capsule-clip)">
+            <rect x="10" y="22" width="22" height="20" fill="url(#capsule-green)"/>
+            <rect x="32" y="22" width="22" height="20" fill="url(#capsule-blue)"/>
+            <path d="M15 26.3h30" stroke="#fff" stroke-opacity=".58" stroke-width="2.2" stroke-linecap="round"/>
+            <path d="M47 25.8h4.5v12.4H47" stroke="#fff" stroke-opacity=".2" stroke-width="3.8" stroke-linecap="round"/>
+            <circle cx="20" cy="32" r="2.25" fill="#fff" fill-opacity=".82"/>
+            <circle cx="25" cy="35.5" r="1.3" fill="#25D3A1"/>
+            <circle cx="25.8" cy="28.5" r="1" fill="#37C8F5"/>
+          </g>
+          <rect x="10" y="22" width="44" height="20" rx="10" stroke="url(#capsule-rim)" stroke-width="1.8"/>
+          <path d="M32 22v20" stroke="#fff" stroke-opacity=".8" stroke-width="3.8"/>
+          <path d="M32 22v20" stroke="#2878FF" stroke-opacity=".64" stroke-width="1.5"/>
+        </g>
+      </g>
+      <path d="M48.5 11.5v6M45.5 14.5h6" stroke="#25D3A1" stroke-width="1.8" stroke-linecap="round"/>
+      <circle cx="11.5" cy="50.5" r="2.5" fill="#37C8F5" fill-opacity=".18" stroke="#37C8F5" stroke-width="1.2"/>
+  </symbol>
+  <symbol id="molecule" viewBox="0 0 64 64" fill="none" role="img" aria-labelledby="molecule-title molecule-desc">
+    <title id="molecule-title">Medical molecule</title>
+      <desc id="molecule-desc">A three-dimensional molecular network built from luminous blue and green atoms.</desc>
+      <defs>
+        <radialGradient id="molecule-blue" cx="0" cy="0" r="1" gradientTransform="translate(26 25) rotate(48) scale(15)">
+          <stop stop-color="#fff" stop-opacity=".95"/>
+          <stop offset=".32" stop-color="#37C8F5" stop-opacity=".9"/>
+          <stop offset="1" stop-color="#2878FF"/>
+        </radialGradient>
+        <radialGradient id="molecule-green" cx="0" cy="0" r="1" gradientTransform="translate(44 19) rotate(55) scale(11)">
+          <stop stop-color="#fff"/>
+          <stop offset=".3" stop-color="#8AF0D2"/>
+          <stop offset="1" stop-color="#25D3A1"/>
+        </radialGradient>
+        <radialGradient id="molecule-pale" cx="0" cy="0" r="1" gradientTransform="translate(22 45) rotate(50) scale(10)">
+          <stop stop-color="#fff"/>
+          <stop offset="1" stop-color="#37C8F5" stop-opacity=".36"/>
+        </radialGradient>
+        <linearGradient id="molecule-bond" x1="13" y1="47" x2="52" y2="15" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#18354F" stop-opacity=".7"/>
+          <stop offset=".48" stop-color="#2878FF"/>
+          <stop offset="1" stop-color="#25D3A1"/>
+        </linearGradient>
+        <filter id="molecule-shadow" x="6" y="7" width="53" height="51" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+          <feDropShadow dx="0" dy="2.5" stdDeviation="2.3" flood-color="#2878FF" flood-opacity=".18"/>
+        </filter>
+      </defs>
+      <g filter="url(#molecule-shadow)">
+        <path d="m15.5 23.2 15.2 8.55M30.7 31.75 43.9 17.8M30.7 31.75l-8.5 15.1M30.7 31.75l17.2 9.85M22.2 46.85l25.7-5.25" stroke="#fff" stroke-opacity=".94" stroke-width="5" stroke-linecap="round"/>
+        <path d="m15.5 23.2 15.2 8.55M30.7 31.75 43.9 17.8M30.7 31.75l-8.5 15.1M30.7 31.75l17.2 9.85M22.2 46.85l25.7-5.25" stroke="url(#molecule-bond)" stroke-width="2.4" stroke-linecap="round"/>
+        <circle cx="30.7" cy="31.75" r="10.2" fill="url(#molecule-blue)" stroke="#2878FF" stroke-width="1.5"/>
+        <circle cx="43.9" cy="17.8" r="7.2" fill="url(#molecule-green)" stroke="#25D3A1" stroke-width="1.5"/>
+        <circle cx="47.9" cy="41.6" r="6.7" fill="url(#molecule-blue)" stroke="#2878FF" stroke-width="1.4"/>
+        <circle cx="22.2" cy="46.85" r="6.3" fill="url(#molecule-pale)" stroke="#37C8F5" stroke-width="1.4"/>
+        <circle cx="15.5" cy="23.2" r="5.5" fill="url(#molecule-green)" stroke="#25D3A1" stroke-width="1.4"/>
+        <ellipse cx="27.2" cy="27.5" rx="2.6" ry="1.8" transform="rotate(-35 27.2 27.5)" fill="#fff" fill-opacity=".72"/>
+      </g>
+      <circle cx="51.8" cy="12.2" r="2" fill="#37C8F5" fill-opacity=".2" stroke="#37C8F5" stroke-width="1.1"/>
+      <circle cx="12.2" cy="49.8" r="1.7" fill="#25D3A1" fill-opacity=".22"/>
+  </symbol>
+  <symbol id="health-data" viewBox="0 0 64 64" fill="none" role="img" aria-labelledby="health-data-title health-data-desc">
+    <title id="health-data-title">Health data</title>
+      <desc id="health-data-desc">A luminous health data dial with a heart, pulse trace, and analytics markers.</desc>
+      <defs>
+        <linearGradient id="health-data-ring" x1="13" y1="12" x2="52" y2="53" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#37C8F5"/>
+          <stop offset=".55" stop-color="#2878FF"/>
+          <stop offset="1" stop-color="#25D3A1"/>
+        </linearGradient>
+        <radialGradient id="health-data-face" cx="0" cy="0" r="1" gradientTransform="translate(27 24) rotate(49) scale(25)">
+          <stop stop-color="#fff" stop-opacity=".98"/>
+          <stop offset=".56" stop-color="#E7F8FF" stop-opacity=".58"/>
+          <stop offset="1" stop-color="#25D3A1" stop-opacity=".1"/>
+        </radialGradient>
+        <linearGradient id="health-data-heart" x1="24" y1="24" x2="42" y2="42" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#2878FF"/>
+          <stop offset="1" stop-color="#25D3A1"/>
+        </linearGradient>
+        <filter id="health-data-shadow" x="5" y="5" width="54" height="55" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+          <feDropShadow dx="0" dy="2.5" stdDeviation="2.4" flood-color="#18354F" flood-opacity=".16"/>
+        </filter>
+      </defs>
+      <g filter="url(#health-data-shadow)">
+        <circle cx="32" cy="31.5" r="22.5" fill="url(#health-data-face)" stroke="#DCEAF2" stroke-width="1.3"/>
+        <path d="M32 9a22.5 22.5 0 0 1 22.23 18.99" stroke="url(#health-data-ring)" stroke-width="3.2" stroke-linecap="round"/>
+        <path d="M53.97 36.36A22.5 22.5 0 0 1 19.1 49.94" stroke="#25D3A1" stroke-width="3.2" stroke-linecap="round"/>
+        <path d="M13.65 44.52A22.5 22.5 0 0 1 12.9 19.61" stroke="#2878FF" stroke-opacity=".52" stroke-width="3.2" stroke-linecap="round"/>
+        <path d="M32 44.2s-12-6.96-12-15.1a7 7 0 0 1 12-4.89 7 7 0 0 1 12 4.89c0 8.14-12 15.1-12 15.1Z" fill="url(#health-data-heart)" fill-opacity=".16" stroke="url(#health-data-heart)" stroke-width="1.7" stroke-linejoin="round"/>
+        <path d="M17 33h7.2l2.35-5.05 3.67 10.15 3.4-6.85 2.2 3.35H47" stroke="#fff" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M17 33h7.2l2.35-5.05 3.67 10.15 3.4-6.85 2.2 3.35H47" stroke="#37C8F5" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle cx="47" cy="34.6" r="2.1" fill="#25D3A1" stroke="#fff" stroke-width="1.1"/>
+      </g>
+      <circle cx="11.1" cy="15.1" r="2.1" fill="#25D3A1"/>
+      <circle cx="55" cy="42" r="1.7" fill="#2878FF" fill-opacity=".22"/>
+  </symbol>
+  <symbol id="connected-care" viewBox="0 0 64 64" fill="none" role="img" aria-labelledby="connected-care-title connected-care-desc">
+    <title id="connected-care-title">Connected care</title>
+      <desc id="connected-care-desc">Two care participants linked through a glowing digital medical connection.</desc>
+      <defs>
+        <linearGradient id="connected-care-link" x1="10" y1="18" x2="54" y2="48" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#37C8F5"/>
+          <stop offset=".5" stop-color="#2878FF"/>
+          <stop offset="1" stop-color="#25D3A1"/>
+        </linearGradient>
+        <radialGradient id="connected-care-left" cx="0" cy="0" r="1" gradientTransform="translate(17 24) rotate(58) scale(17)">
+          <stop stop-color="#fff"/>
+          <stop offset=".45" stop-color="#37C8F5" stop-opacity=".55"/>
+          <stop offset="1" stop-color="#2878FF" stop-opacity=".16"/>
+        </radialGradient>
+        <radialGradient id="connected-care-right" cx="0" cy="0" r="1" gradientTransform="translate(47 34) rotate(55) scale(17)">
+          <stop stop-color="#fff"/>
+          <stop offset=".45" stop-color="#91F1D4" stop-opacity=".58"/>
+          <stop offset="1" stop-color="#25D3A1" stop-opacity=".16"/>
+        </radialGradient>
+        <linearGradient id="connected-care-center" x1="25" y1="24" x2="40" y2="41" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#2878FF"/>
+          <stop offset="1" stop-color="#25D3A1"/>
+        </linearGradient>
+        <filter id="connected-care-shadow" x="5" y="8" width="54" height="51" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+          <feDropShadow dx="0" dy="2.5" stdDeviation="2.1" flood-color="#2878FF" flood-opacity=".16"/>
+        </filter>
+      </defs>
+      <g filter="url(#connected-care-shadow)">
+        <path d="M18.5 20.2A21.6 21.6 0 0 1 46 18.1M49.1 42.4A21.6 21.6 0 0 1 22 50M13.7 40.6a21.6 21.6 0 0 1-1.1-13" stroke="url(#connected-care-link)" stroke-width="2" stroke-linecap="round" stroke-dasharray="3 3.5"/>
+        <circle cx="16.5" cy="30" r="10.5" fill="url(#connected-care-left)" stroke="#2878FF" stroke-width="1.5"/>
+        <circle cx="47.5" cy="34" r="10.5" fill="url(#connected-care-right)" stroke="#25D3A1" stroke-width="1.5"/>
+        <circle cx="16.5" cy="27.1" r="3.2" fill="#2878FF" fill-opacity=".72"/>
+        <path d="M10.8 36.2a6 6 0 0 1 11.4 0" fill="#2878FF" fill-opacity=".14" stroke="#2878FF" stroke-width="1.4" stroke-linecap="round"/>
+        <circle cx="47.5" cy="31.1" r="3.2" fill="#25D3A1" fill-opacity=".82"/>
+        <path d="M41.8 40.2a6 6 0 0 1 11.4 0" fill="#25D3A1" fill-opacity=".14" stroke="#25D3A1" stroke-width="1.4" stroke-linecap="round"/>
+        <path d="m25.1 30.25 5.4-3.1M33.5 37.1l5.4-3.1" stroke="#fff" stroke-width="4" stroke-linecap="round"/>
+        <path d="m25.1 30.25 5.4-3.1M33.5 37.1l5.4-3.1" stroke="url(#connected-care-link)" stroke-width="1.7" stroke-linecap="round"/>
+        <rect x="25.5" y="25.5" width="13" height="13" rx="4" fill="#fff" fill-opacity=".9" stroke="url(#connected-care-center)" stroke-width="1.5" transform="rotate(-3 25.5 25.5)"/>
+        <path d="M32 28.7v6.6M28.7 32h6.6" stroke="url(#connected-care-center)" stroke-width="2.1" stroke-linecap="round"/>
+      </g>
+      <circle cx="46.5" cy="15" r="2.2" fill="#37C8F5" stroke="#fff" stroke-width="1"/>
+      <circle cx="20" cy="50.8" r="2.2" fill="#25D3A1" stroke="#fff" stroke-width="1"/>
+  </symbol>
+  <symbol id="medical-cloud" viewBox="0 0 64 64" fill="none" role="img" aria-labelledby="medical-cloud-title medical-cloud-desc">
+    <title id="medical-cloud-title">Medical cloud</title>
+      <desc id="medical-cloud-desc">A translucent digital cloud with a medical cross and connected health data nodes.</desc>
+      <defs>
+        <linearGradient id="medical-cloud-fill" x1="13" y1="17" x2="52" y2="47" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#E9FBFF" stop-opacity=".92"/>
+          <stop offset=".55" stop-color="#2878FF" stop-opacity=".16"/>
+          <stop offset="1" stop-color="#25D3A1" stop-opacity=".2"/>
+        </linearGradient>
+        <linearGradient id="medical-cloud-rim" x1="10" y1="18" x2="53" y2="46" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#37C8F5"/>
+          <stop offset=".52" stop-color="#2878FF"/>
+          <stop offset="1" stop-color="#25D3A1"/>
+        </linearGradient>
+        <linearGradient id="medical-cloud-cross" x1="27" y1="24" x2="39" y2="39" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#2878FF"/>
+          <stop offset="1" stop-color="#25D3A1"/>
+        </linearGradient>
+        <filter id="medical-cloud-shadow" x="6" y="10" width="53" height="44" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+          <feDropShadow dx="0" dy="3" stdDeviation="2.5" flood-color="#2878FF" flood-opacity=".18"/>
+        </filter>
+      </defs>
+      <g filter="url(#medical-cloud-shadow)">
+        <path d="M20.25 45.5h27.3a9.45 9.45 0 0 0 1.14-18.83A16.65 16.65 0 0 0 17.3 23.8a10.96 10.96 0 0 0 2.95 21.7Z" fill="url(#medical-cloud-fill)" stroke="url(#medical-cloud-rim)" stroke-width="1.8" stroke-linejoin="round"/>
+        <path d="M21 25.4a12.8 12.8 0 0 1 21.2-5.2" stroke="#fff" stroke-opacity=".74" stroke-width="2.4" stroke-linecap="round"/>
+        <rect x="25.5" y="24.5" width="14" height="14" rx="4" fill="#fff" fill-opacity=".72" stroke="#fff" stroke-width="1.2"/>
+        <path d="M32.5 27.5v8M28.5 31.5h8" stroke="url(#medical-cloud-cross)" stroke-width="2.4" stroke-linecap="round"/>
+        <path d="M19 45.5v5.2h27v-5.2M25.5 45.5v5.2M39.5 45.5v5.2" stroke="#18354F" stroke-opacity=".68" stroke-width="1.4" stroke-linecap="round"/>
+        <circle cx="19" cy="51" r="2.6" fill="#37C8F5" stroke="#fff" stroke-width="1.2"/>
+        <circle cx="32.5" cy="51" r="2.6" fill="#2878FF" stroke="#fff" stroke-width="1.2"/>
+        <circle cx="46" cy="51" r="2.6" fill="#25D3A1" stroke="#fff" stroke-width="1.2"/>
+      </g>
+      <path d="M51.5 17v5M49 19.5h5" stroke="#25D3A1" stroke-width="1.7" stroke-linecap="round"/>
+      <circle cx="13" cy="34" r="2" fill="#2878FF" fill-opacity=".16"/>
+  </symbol>
+  <symbol id="shield-check" viewBox="0 0 64 64" fill="none" role="img" aria-labelledby="shield-check-title shield-check-desc">
+    <title id="shield-check-title">Verified medical protection</title>
+      <desc id="shield-check-desc">A translucent healthcare shield with a green verification check.</desc>
+      <defs>
+        <linearGradient id="shield-check-fill" x1="17" y1="10" x2="48" y2="53" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#37C8F5" stop-opacity=".34"/>
+          <stop offset=".55" stop-color="#2878FF" stop-opacity=".13"/>
+          <stop offset="1" stop-color="#25D3A1" stop-opacity=".24"/>
+        </linearGradient>
+        <linearGradient id="shield-check-edge" x1="16" y1="12" x2="51" y2="48" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#37C8F5"/>
+          <stop offset=".55" stop-color="#2878FF"/>
+          <stop offset="1" stop-color="#25D3A1"/>
+        </linearGradient>
+        <linearGradient id="shield-check-mark" x1="22" y1="33" x2="43" y2="35" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#25D3A1"/>
+          <stop offset="1" stop-color="#37C8F5"/>
+        </linearGradient>
+      </defs>
+      <path d="M32 7.75c6.45 4.23 12.08 5.9 17.17 6.5v13.16c0 11.6-6.73 21.31-17.17 28.84-10.44-7.53-17.17-17.24-17.17-28.84V14.25c5.09-.6 10.72-2.27 17.17-6.5Z" fill="url(#shield-check-fill)" stroke="url(#shield-check-edge)" stroke-width="2.5" stroke-linejoin="round"/>
+      <path d="M20.1 19.04c3.87-.88 7.8-2.4 11.9-4.66 4.1 2.26 8.03 3.78 11.9 4.66" stroke="#fff" stroke-opacity=".88" stroke-width="2" stroke-linecap="round"/>
+      <path d="m22.75 32.85 6.23 6.23 12.86-13.26" stroke="url(#shield-check-mark)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="51.5" cy="21.5" r="2.5" fill="#25D3A1" fill-opacity=".4" stroke="#25D3A1"/>
+      <circle cx="12.5" cy="38.5" r="1.75" fill="#37C8F5" fill-opacity=".35" stroke="#37C8F5"/>
+  </symbol>
+  <symbol id="digital-twin" viewBox="0 0 64 64" fill="none" role="img" aria-labelledby="digital-twin-title digital-twin-desc">
+    <title id="digital-twin-title">Patient digital twin</title>
+      <desc id="digital-twin-desc">Two connected translucent human profiles representing a synchronized digital twin.</desc>
+      <defs>
+        <linearGradient id="digital-twin-left" x1="9" y1="16" x2="31" y2="51" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#37C8F5" stop-opacity=".36"/>
+          <stop offset="1" stop-color="#2878FF" stop-opacity=".1"/>
+        </linearGradient>
+        <linearGradient id="digital-twin-right" x1="35" y1="14" x2="57" y2="51" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#25D3A1" stop-opacity=".35"/>
+          <stop offset="1" stop-color="#37C8F5" stop-opacity=".1"/>
+        </linearGradient>
+        <linearGradient id="digital-twin-link" x1="23" y1="32" x2="42" y2="32" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#2878FF"/>
+          <stop offset="1" stop-color="#25D3A1"/>
+        </linearGradient>
+      </defs>
+      <path d="M22.2 12.5a9.05 9.05 0 0 0-9.05 9.05v4.68L9 32.3l4.15 1.58v3.42c0 4.12 2.33 7.89 6.02 9.73v5.22h13.36v-5.37a10.73 10.73 0 0 0 5.16-9.18v-7.93A17.28 17.28 0 0 0 22.2 12.5Z" fill="url(#digital-twin-left)" stroke="#2878FF" stroke-width="2.25" stroke-linejoin="round"/>
+      <path d="M42.18 11.75a8.73 8.73 0 0 1 8.73 8.73v4.51L55 30.84l-4.09 1.53v3.3a10.48 10.48 0 0 1-5.81 9.4v5.18H33.28" fill="url(#digital-twin-right)" stroke="#25D3A1" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M18.25 19.25c3.16-2.42 7.44-2.23 10.4.45" stroke="#fff" stroke-opacity=".9" stroke-width="1.75" stroke-linecap="round"/>
+      <path d="M38.2 18.4c2.83-1.99 6.6-1.88 9.31.27" stroke="#fff" stroke-opacity=".86" stroke-width="1.75" stroke-linecap="round"/>
+      <path d="M25 28.5h13.2l-3.05-3.05M39 35.5H25.8l3.05 3.05" stroke="url(#digital-twin-link)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="20.25" cy="25.5" r="2" fill="#37C8F5"/>
+      <circle cx="44.25" cy="24.5" r="2" fill="#25D3A1"/>
+      <path d="M20.25 25.5 25 28.5M44.25 24.5 38.2 28.5" stroke="#18354F" stroke-opacity=".45" stroke-width="1.25" stroke-linecap="round"/>
+  </symbol>
+  <symbol id="dna" viewBox="0 0 64 64" fill="none" role="img" aria-labelledby="dna-title dna-desc">
+    <title id="dna-title">Genomic medicine</title>
+      <desc id="dna-desc">A luminous blue and green DNA double helix for precision medicine.</desc>
+      <defs>
+        <linearGradient id="dna-blue" x1="17" y1="8" x2="48" y2="56" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#37C8F5"/>
+          <stop offset="1" stop-color="#2878FF"/>
+        </linearGradient>
+        <linearGradient id="dna-green" x1="46" y1="8" x2="17" y2="56" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#25D3A1"/>
+          <stop offset="1" stop-color="#37C8F5"/>
+        </linearGradient>
+        <linearGradient id="dna-membrane" x1="20" y1="20" x2="44" y2="44" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#2878FF" stop-opacity=".2"/>
+          <stop offset="1" stop-color="#25D3A1" stop-opacity=".24"/>
+        </linearGradient>
+      </defs>
+      <path d="M18 8.5c0 11.13 28 12.37 28 23.5S18 44.37 18 55.5" stroke="url(#dna-blue)" stroke-width="3.25" stroke-linecap="round"/>
+      <path d="M46 8.5c0 11.13-28 12.37-28 23.5s28 12.37 28 23.5" stroke="url(#dna-green)" stroke-width="3.25" stroke-linecap="round"/>
+      <path d="M22.35 15.1h19.3M20.25 23.6h23.5M20.25 40.4h23.5M22.35 48.9h19.3" stroke="#18354F" stroke-opacity=".48" stroke-width="1.75" stroke-linecap="round"/>
+      <path d="M18.2 31.98h27.6" stroke="url(#dna-membrane)" stroke-width="5" stroke-linecap="round"/>
+      <circle cx="18" cy="8.5" r="2.25" fill="#37C8F5"/>
+      <circle cx="46" cy="8.5" r="2.25" fill="#25D3A1"/>
+      <circle cx="18" cy="55.5" r="2.25" fill="#2878FF"/>
+      <circle cx="46" cy="55.5" r="2.25" fill="#37C8F5"/>
+      <circle cx="32" cy="32" r="3" fill="#fff" fill-opacity=".76" stroke="#37C8F5" stroke-width="1.5"/>
+  </symbol>
+  <symbol id="lab-engine" viewBox="0 0 64 64" fill="none" role="img" aria-labelledby="lab-engine-title lab-engine-desc">
+    <title id="lab-engine-title">Pharmaceutical lab engine</title>
+      <desc id="lab-engine-desc">A transparent laboratory flask integrated with a precision machine gear.</desc>
+      <defs>
+        <linearGradient id="lab-engine-vessel" x1="14" y1="12" x2="40" y2="54" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#37C8F5" stop-opacity=".28"/>
+          <stop offset="1" stop-color="#2878FF" stop-opacity=".1"/>
+        </linearGradient>
+        <linearGradient id="lab-engine-liquid" x1="13" y1="37" x2="39" y2="54" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#25D3A1" stop-opacity=".56"/>
+          <stop offset="1" stop-color="#37C8F5" stop-opacity=".24"/>
+        </linearGradient>
+        <linearGradient id="lab-engine-gear" x1="35" y1="23" x2="57" y2="46" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#37C8F5"/>
+          <stop offset=".55" stop-color="#2878FF"/>
+          <stop offset="1" stop-color="#25D3A1"/>
+        </linearGradient>
+      </defs>
+      <path d="M21 8.5h13M23 8.5v14.2L12.76 44.86A7.5 7.5 0 0 0 19.57 55.5h20.86a7.5 7.5 0 0 0 6.81-10.64L36 22.7V8.5" fill="url(#lab-engine-vessel)" stroke="#2878FF" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="m17.1 39.75 3.66-.75c3.37-.69 6.8-.14 9.8 1.12 3.44 1.44 7.27 1.84 10.94.92l4-.99 2.43 7.78a6 6 0 0 1-5.73 7.79H18.37a6 6 0 0 1-5.62-8.09l4.35-7.78Z" fill="url(#lab-engine-liquid)"/>
+      <path d="M25.25 14.25h8.5" stroke="#fff" stroke-opacity=".9" stroke-width="1.75" stroke-linecap="round"/>
+      <path d="M43.7 25.18 46 23.75l2.3 1.43 2.7-.04 1.31 2.36 2.36 1.31-.04 2.7 1.43 2.3-1.43 2.3.04 2.7-2.36 1.31L51 42.48l-2.7-.04-2.3 1.43-2.3-1.43-2.7.04-1.31-2.36-2.36-1.31.04-2.7-1.43-2.3 1.43-2.3-.04-2.7 2.36-1.31L41 25.14l2.7.04Z" fill="#fff" fill-opacity=".86" stroke="url(#lab-engine-gear)" stroke-width="2" stroke-linejoin="round"/>
+      <circle cx="46" cy="33.81" r="4.3" fill="url(#lab-engine-vessel)" stroke="#18354F" stroke-opacity=".62" stroke-width="1.75"/>
+      <circle cx="24" cy="46" r="2.25" fill="#fff" fill-opacity=".72"/>
+      <circle cx="31" cy="50" r="1.5" fill="#fff" fill-opacity=".82"/>
+  </symbol>
+  <symbol id="prescription" viewBox="0 0 64 64" fill="none" role="img" aria-labelledby="prescription-title prescription-desc">
+    <title id="prescription-title">Digital prescription</title>
+      <desc id="prescription-desc">A secure digital prescription document with a capsule and medical cross.</desc>
+      <defs>
+        <linearGradient id="prescription-paper" x1="14" y1="7" x2="49" y2="57" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#37C8F5" stop-opacity=".25"/>
+          <stop offset=".56" stop-color="#2878FF" stop-opacity=".09"/>
+          <stop offset="1" stop-color="#25D3A1" stop-opacity=".2"/>
+        </linearGradient>
+        <linearGradient id="prescription-edge" x1="13" y1="10" x2="51" y2="52" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#37C8F5"/>
+          <stop offset=".55" stop-color="#2878FF"/>
+          <stop offset="1" stop-color="#25D3A1"/>
+        </linearGradient>
+        <linearGradient id="prescription-pill" x1="31" y1="42" x2="49" y2="54" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#2878FF"/>
+          <stop offset="1" stop-color="#25D3A1"/>
+        </linearGradient>
+      </defs>
+      <path d="M15 7.75h25.25L50 17.5v37.75H15V7.75Z" fill="url(#prescription-paper)" stroke="url(#prescription-edge)" stroke-width="2.25" stroke-linejoin="round"/>
+      <path d="M40.25 7.75V17.5H50" fill="#fff" fill-opacity=".72" stroke="#2878FF" stroke-width="2.25" stroke-linejoin="round"/>
+      <path d="M20.5 20.5h10M25.5 15.5v10" stroke="#25D3A1" stroke-width="2.5" stroke-linecap="round"/>
+      <path d="M20.5 31h23M20.5 36h16" stroke="#18354F" stroke-opacity=".5" stroke-width="2" stroke-linecap="round"/>
+      <path d="M32.28 47.25 39.53 40a5.13 5.13 0 0 1 7.25 7.25l-7.25 7.25a5.13 5.13 0 0 1-7.25-7.25Z" fill="#fff" fill-opacity=".82" stroke="url(#prescription-pill)" stroke-width="2.25"/>
+      <path d="m36.02 43.51 7.25 7.25" stroke="url(#prescription-pill)" stroke-width="2.25"/>
+      <path d="M17.75 10.75h18" stroke="#fff" stroke-opacity=".9" stroke-width="1.5" stroke-linecap="round"/>
+  </symbol>
+  <symbol id="telemedicine" viewBox="0 0 64 64" fill="none" role="img" aria-labelledby="telemedicine-title telemedicine-desc">
+    <title id="telemedicine-title">Telemedicine consultation</title>
+      <desc id="telemedicine-desc">A transparent smart device connecting a doctor with a remote patient.</desc>
+      <defs>
+        <linearGradient id="telemedicine-device" x1="12" y1="8" x2="46" y2="56" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#37C8F5" stop-opacity=".3"/>
+          <stop offset=".5" stop-color="#2878FF" stop-opacity=".1"/>
+          <stop offset="1" stop-color="#25D3A1" stop-opacity=".2"/>
+        </linearGradient>
+        <linearGradient id="telemedicine-edge" x1="13" y1="9" x2="47" y2="54" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#37C8F5"/>
+          <stop offset=".6" stop-color="#2878FF"/>
+          <stop offset="1" stop-color="#25D3A1"/>
+        </linearGradient>
+        <linearGradient id="telemedicine-signal" x1="43" y1="18" x2="58" y2="33" gradientUnits="userSpaceOnUse">
+          <stop stop-color="#25D3A1"/>
+          <stop offset="1" stop-color="#37C8F5"/>
+        </linearGradient>
+      </defs>
+      <rect x="10.5" y="7.5" width="38" height="49" rx="8" fill="url(#telemedicine-device)" stroke="url(#telemedicine-edge)" stroke-width="2.25"/>
+      <path d="M16.5 13h26" stroke="#fff" stroke-opacity=".9" stroke-width="1.75" stroke-linecap="round"/>
+      <circle cx="29.5" cy="25.5" r="6" fill="#fff" fill-opacity=".78" stroke="#2878FF" stroke-width="2"/>
+      <path d="M19.5 44.5v-2.25a10 10 0 0 1 20 0v2.25" fill="#fff" fill-opacity=".62" stroke="#2878FF" stroke-width="2" stroke-linecap="round"/>
+      <path d="M29.5 20.5v10M24.5 25.5h10" stroke="#25D3A1" stroke-width="2.25" stroke-linecap="round"/>
+      <path d="M18.5 49.75h22" stroke="#18354F" stroke-opacity=".45" stroke-width="1.75" stroke-linecap="round"/>
+      <path d="M43.5 27.25a8.5 8.5 0 0 1 8.5 8.5M43.5 21.25A14.5 14.5 0 0 1 58 35.75" stroke="url(#telemedicine-signal)" stroke-width="2.5" stroke-linecap="round"/>
+      <circle cx="43.5" cy="35.75" r="2.75" fill="#25D3A1" fill-opacity=".45" stroke="#25D3A1" stroke-width="1.5"/>
+  </symbol>
+</svg>

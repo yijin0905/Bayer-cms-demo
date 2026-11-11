@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f4f8fb" />
+    <title>Bayer CMS · AI 视频创作</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles.css" />
+    <style>
+      .script-caption-field{margin-top:12px}.script-caption-field .textarea{min-height:58px;font-size:11px}
+      .add-menu-wrap{position:relative}.add-menu{position:absolute;left:38px;top:0;z-index:12;min-width:148px;padding:6px;background:#fff;border:1px solid #e1eaf0;border-radius:11px;box-shadow:0 12px 25px #16365020}.add-menu button{display:block;width:100%;padding:9px 10px;border:0;border-radius:7px;background:#fff;text-align:left;font-size:11px;color:#506b80}.add-menu button:hover{background:#eff7fb;color:#1768a5}
+      .caption-timeline{margin-top:14px;padding:18px}.caption-timeline-head,.caption-timeline-foot{display:flex;align-items:center;justify-content:space-between;gap:12px}.caption-timeline-actions,.caption-order-actions{display:flex;align-items:center;gap:5px}.caption-scene-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:14px}.caption-scene-group{padding:12px;border:1px solid #e6edf2;border-radius:12px;background:#fbfcfd;min-width:0}.caption-scene-group.selected{border-color:#a8d5e6;background:#f5fbfd}.caption-scene-head,.caption-segment-meta{display:flex;align-items:center;justify-content:space-between;gap:8px}.caption-scene-head>div:first-child{display:flex;align-items:center;gap:7px;font-size:11px}.caption-scene-index{font-size:10px;color:#2584b5;font-weight:700}.caption-segment{margin-top:10px;padding:9px;border:1px solid #e9eef2;border-radius:9px;background:#fff}.caption-segment.selected{border-color:#a9d5e5;box-shadow:0 0 0 2px #eff8fb}.caption-segment-meta{font-size:10px;color:#73849a}.caption-time-fields{display:flex;align-items:end;gap:7px;margin:8px 0}.caption-time-fields label{display:grid;gap:4px;font-size:9px;color:#74889a}.caption-time-fields .input{width:75px;padding:6px;font-size:10px}.caption-segment-text{min-height:54px!important;font-size:10px!important;padding:8px!important}.caption-empty{padding:12px;color:#94a4b2;font-size:10px}.caption-timeline-foot{margin-top:12px;padding-top:12px;border-top:1px solid #edf1f4}.sound-editors-two{grid-template-columns:1fr 1.25fr .85fr}.caption-edit-route{display:flex;flex-direction:column;justify-content:center;gap:8px}.prop-two{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+      @media(max-width:760px){.caption-timeline{padding:12px}.caption-timeline-head{align-items:flex-start;flex-direction:column}.caption-timeline-actions{width:100%;justify-content:space-between}.caption-scene-list{grid-template-columns:1fr}.caption-time-fields{flex-wrap:wrap}.caption-time-fields .input{width:68px}.caption-timeline-foot{align-items:flex-start;flex-direction:column}.sound-editors-two{grid-template-columns:1fr}.prop-two{grid-template-columns:1fr 1fr}}
+    </style>
+  </head>
+  <body>
+    <div id="app"></div>
+    <div id="toast-region" class="toast-region" aria-live="polite"></div>
+    <script src="./app.js"></script>
+    <script src="./music.js"></script>
+    <script src="./feedback.js"></script>
+    <script src="./veeva.js"></script>
+    <script src="./node_modules/docx/dist/index.iife.js"></script>
+    <script src="./longform.js"></script>
+  </body>
+</html>

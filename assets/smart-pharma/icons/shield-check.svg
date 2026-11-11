@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none" role="img" aria-labelledby="shield-check-title shield-check-desc">
+  <title id="shield-check-title">Verified medical protection</title>
+  <desc id="shield-check-desc">A translucent healthcare shield with a green verification check.</desc>
+  <defs>
+    <linearGradient id="shield-check-fill" x1="17" y1="10" x2="48" y2="53" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#37C8F5" stop-opacity=".34"/>
+      <stop offset=".55" stop-color="#2878FF" stop-opacity=".13"/>
+      <stop offset="1" stop-color="#25D3A1" stop-opacity=".24"/>
+    </linearGradient>
+    <linearGradient id="shield-check-edge" x1="16" y1="12" x2="51" y2="48" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#37C8F5"/>
+      <stop offset=".55" stop-color="#2878FF"/>
+      <stop offset="1" stop-color="#25D3A1"/>
+    </linearGradient>
+    <linearGradient id="shield-check-mark" x1="22" y1="33" x2="43" y2="35" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#25D3A1"/>
+      <stop offset="1" stop-color="#37C8F5"/>
+    </linearGradient>
+  </defs>
+  <path d="M32 7.75c6.45 4.23 12.08 5.9 17.17 6.5v13.16c0 11.6-6.73 21.31-17.17 28.84-10.44-7.53-17.17-17.24-17.17-28.84V14.25c5.09-.6 10.72-2.27 17.17-6.5Z" fill="url(#shield-check-fill)" stroke="url(#shield-check-edge)" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M20.1 19.04c3.87-.88 7.8-2.4 11.9-4.66 4.1 2.26 8.03 3.78 11.9 4.66" stroke="#fff" stroke-opacity=".88" stroke-width="2" stroke-linecap="round"/>
+  <path d="m22.75 32.85 6.23 6.23 12.86-13.26" stroke="url(#shield-check-mark)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="51.5" cy="21.5" r="2.5" fill="#25D3A1" fill-opacity=".4" stroke="#25D3A1"/>
+  <circle cx="12.5" cy="38.5" r="1.75" fill="#37C8F5" fill-opacity=".35" stroke="#37C8F5"/>
+</svg>

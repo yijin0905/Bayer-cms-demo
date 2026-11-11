@@ -1,0 +1,14 @@
+Use case: ads-marketing
+Asset type: ultra-wide master key visual, final crop 3840x1152
+Primary request: Create an original premium Bayer key visual inspired by the reference video's motion language, without copying its exact artwork, logo, text, or layout.
+Input references: Video contact sheet is a style and composition reference only; Bayer screenshot is a color reference only.
+Scene/backdrop: near-black background with a subtle green undertone (#060B07), deep spatial falloff, no visible horizon.
+Subject: two continuous abstract energy streams made from fine particles and translucent light ribbons. One stream is Bayer green (#9AD04C) and one is Bayer blue (#50BBF9). They sweep across the canvas, cross once near the center-left, form a large elegant open loop, then disperse into precise micro-particles.
+Style/medium: sophisticated cinematic motion-design still, volumetric light, high particle density near the crossing point, delicate dust, restrained bloom, crisp premium 3D rendering, scientific and optimistic rather than magical.
+Composition/framing: extra-wide 3:1 source canvas at 3840x1280, designed for a centered 10:3 final crop at 3840x1152 by removing 5% from both the top and bottom. Keep every essential ribbon, crossing point, and dense particle cluster within the central 76% of the source height (y=12%-88%); treat the top and bottom 12% as calm, dark, crop-safe fields. The blue-green crossing is around 43% canvas width and 56% canvas height. The loop fills the central band without touching the crop-safe fields. Keep the rightmost 27% calm and dark for future headline placement. Preserve at least 6% horizontal safe margins and at least 6% vertical safe margins after the final crop. Strong horizontal flow and depth; no centered circle logo.
+Lighting/mood: controlled luminous contrast, soft volumetric rays, deep black negative space, precise and progressive, no overexposure.
+Color palette: #060B07 background, #9AD04C Bayer green, #50BBF9 Bayer blue, tiny neutral-white spark highlights only. Green and blue should have approximately equal visual weight and meet through a very short clean transition; no orange, gold, purple, magenta, or rainbow colors.
+Materials/textures: thousands of crisp micro-particles, smooth translucent ribbons, subtle motion trails, clean anti-aliased edges, minimal grain.
+Text: none.
+Constraints: original artwork; no Bayer logo rendered inside the image; reserve a clean logo safe area for placement from an official vector asset later; no watermark; no UI; no phones; no people; no product pack; no text-like marks; no copied RAN DESIGN branding.
+Avoid: generic neon wave wallpaper, thick glowing tubes, cyan-only palette, busy star field, lens flares, excessive fog, symmetrical infinity symbol, hard-edged geometric rings, low-resolution particles, banding, compression artifacts.

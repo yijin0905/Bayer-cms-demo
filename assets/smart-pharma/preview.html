@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta
+      name="description"
+      content="智能医药与互联网医疗主题 SVG 插画和图标资产预览。"
+    />
+    <title>智能医药 SVG 资产库</title>
+    <link rel="stylesheet" href="./preview.css" />
+    <script src="./preview.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#asset-gallery">跳至资产列表</a>
+
+    <header class="masthead">
+      <div class="masthead-inner">
+        <div class="identity">
+          <span class="identity-mark" aria-hidden="true">
+            <svg viewBox="0 0 40 40" fill="none">
+              <path d="M20 8v24M8 20h24" />
+              <circle cx="20" cy="8" r="3" />
+              <circle cx="32" cy="20" r="3" />
+              <circle cx="20" cy="32" r="3" />
+              <circle cx="8" cy="20" r="3" />
+            </svg>
+          </span>
+          <div>
+            <p class="eyebrow">SMART PHARMA · SVG COLLECTION</p>
+            <h1>智能医药视觉资产库</h1>
+            <p class="subtitle">医疗互联网 · 人工智能 · 精准医疗</p>
+          </div>
+        </div>
+
+        <div class="collection-meta" aria-label="资产概况">
+          <div><strong>16</strong><span>矢量资产</span></div>
+          <div><strong>100%</strong><span>可编辑 SVG</span></div>
+        </div>
+      </div>
+
+      <div class="palette-bar" aria-label="资产配色">
+        <div class="palette-inner">
+          <span class="palette-label">PALETTE</span>
+          <ul class="palette-list">
+            <li><i style="--swatch: #2878ff"></i><span>医疗蓝</span><code>#2878FF</code></li>
+            <li><i style="--swatch: #37c8f5"></i><span>科技青</span><code>#37C8F5</code></li>
+            <li><i style="--swatch: #25d3a1"></i><span>健康绿</span><code>#25D3A1</code></li>
+            <li><i style="--swatch: #18354f"></i><span>深墨色</span><code>#18354F</code></li>
+            <li><i style="--swatch: #8194a7"></i><span>冷灰色</span><code>#8194A7</code></li>
+            <li><i class="white-swatch" style="--swatch: #ffffff"></i><span>纯白</span><code>#FFFFFF</code></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="gallery-shell" aria-labelledby="gallery-title">
+        <div class="gallery-toolbar">
+          <div>
+            <h2 id="gallery-title">资产预览</h2>
+            <p id="asset-count" aria-live="polite">全部 16 项</p>
+          </div>
+
+          <div class="filter-tabs" role="group" aria-label="筛选资产类型">
+            <button
+              class="filter-tab is-active"
+              type="button"
+              aria-pressed="true"
+              data-filter="all"
+            >
+              全部
+            </button>
+            <button
+              class="filter-tab"
+              type="button"
+              aria-pressed="false"
+              data-filter="illustrations"
+            >
+              配图 <span>4</span>
+            </button>
+            <button
+              class="filter-tab"
+              type="button"
+              aria-pressed="false"
+              data-filter="icons"
+            >
+              图标 <span>12</span>
+            </button>
+          </div>
+        </div>
+
+        <div id="asset-gallery" class="asset-grid" aria-busy="true"></div>
+      </section>
+    </main>
+
+    <footer class="page-footer">
+      <p>Smart Pharma SVG Kit · 纯白底色 · 蓝绿灰配色</p>
+      <p>原生矢量，可在浏览器与设计工具中编辑</p>
+    </footer>
+
+    <dialog id="asset-dialog" class="asset-dialog" aria-labelledby="dialog-title">
+      <button class="dialog-close icon-control" type="button" aria-label="关闭预览" title="关闭预览">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="m6 6 12 12M18 6 6 18" />
+        </svg>
+      </button>
+
+      <div class="dialog-layout">
+        <div class="dialog-preview">
+          <button class="dialog-nav dialog-prev icon-control" type="button" aria-label="上一个资产" title="上一个资产">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m15 18-6-6 6-6" /></svg>
+          </button>
+          <img id="dialog-image" src="" alt="" />
+          <button class="dialog-nav dialog-next icon-control" type="button" aria-label="下一个资产" title="下一个资产">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 18 6-6-6-6" /></svg>
+          </button>
+        </div>
+
+        <div class="dialog-details">
+          <p id="dialog-type" class="asset-type"></p>
+          <h2 id="dialog-title"></h2>
+          <p id="dialog-description" class="dialog-description"></p>
+
+          <dl class="file-meta">
+            <div><dt>文件</dt><dd id="dialog-file"></dd></div>
+            <div><dt>格式</dt><dd>SVG · 原生矢量</dd></div>
+            <div><dt>背景</dt><dd id="dialog-background"></dd></div>
+          </dl>
+
+          <div class="dialog-actions">
+            <button id="dialog-copy" class="button button-secondary" type="button">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <rect x="9" y="9" width="11" height="11" rx="2" />
+                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1" />
+              </svg>
+              复制 SVG
+            </button>
+            <a id="dialog-download" class="button button-primary" href="#" download>
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12 3v12m0 0 5-5m-5 5-5-5M5 21h14" />
+              </svg>
+              下载文件
+            </a>
+          </div>
+        </div>
+      </div>
+    </dialog>
+
+    <div id="toast" class="toast" role="status" aria-live="polite" aria-atomic="true"></div>
+  </body>
+</html>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none" role="img" aria-labelledby="lab-engine-title lab-engine-desc">
+  <title id="lab-engine-title">Pharmaceutical lab engine</title>
+  <desc id="lab-engine-desc">A transparent laboratory flask integrated with a precision machine gear.</desc>
+  <defs>
+    <linearGradient id="lab-engine-vessel" x1="14" y1="12" x2="40" y2="54" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#37C8F5" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#2878FF" stop-opacity=".1"/>
+    </linearGradient>
+    <linearGradient id="lab-engine-liquid" x1="13" y1="37" x2="39" y2="54" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#25D3A1" stop-opacity=".56"/>
+      <stop offset="1" stop-color="#37C8F5" stop-opacity=".24"/>
+    </linearGradient>
+    <linearGradient id="lab-engine-gear" x1="35" y1="23" x2="57" y2="46" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#37C8F5"/>
+      <stop offset=".55" stop-color="#2878FF"/>
+      <stop offset="1" stop-color="#25D3A1"/>
+    </linearGradient>
+  </defs>
+  <path d="M21 8.5h13M23 8.5v14.2L12.76 44.86A7.5 7.5 0 0 0 19.57 55.5h20.86a7.5 7.5 0 0 0 6.81-10.64L36 22.7V8.5" fill="url(#lab-engine-vessel)" stroke="#2878FF" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="m17.1 39.75 3.66-.75c3.37-.69 6.8-.14 9.8 1.12 3.44 1.44 7.27 1.84 10.94.92l4-.99 2.43 7.78a6 6 0 0 1-5.73 7.79H18.37a6 6 0 0 1-5.62-8.09l4.35-7.78Z" fill="url(#lab-engine-liquid)"/>
+  <path d="M25.25 14.25h8.5" stroke="#fff" stroke-opacity=".9" stroke-width="1.75" stroke-linecap="round"/>
+  <path d="M43.7 25.18 46 23.75l2.3 1.43 2.7-.04 1.31 2.36 2.36 1.31-.04 2.7 1.43 2.3-1.43 2.3.04 2.7-2.36 1.31L51 42.48l-2.7-.04-2.3 1.43-2.3-1.43-2.7.04-1.31-2.36-2.36-1.31.04-2.7-1.43-2.3 1.43-2.3-.04-2.7 2.36-1.31L41 25.14l2.7.04Z" fill="#fff" fill-opacity=".86" stroke="url(#lab-engine-gear)" stroke-width="2" stroke-linejoin="round"/>
+  <circle cx="46" cy="33.81" r="4.3" fill="url(#lab-engine-vessel)" stroke="#18354F" stroke-opacity=".62" stroke-width="1.75"/>
+  <circle cx="24" cy="46" r="2.25" fill="#fff" fill-opacity=".72"/>
+  <circle cx="31" cy="50" r="1.5" fill="#fff" fill-opacity=".82"/>
+</svg>

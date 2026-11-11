@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none" role="img" aria-labelledby="connected-care-title connected-care-desc">
+  <title id="connected-care-title">Connected care</title>
+  <desc id="connected-care-desc">Two care participants linked through a glowing digital medical connection.</desc>
+  <defs>
+    <linearGradient id="connected-care-link" x1="10" y1="18" x2="54" y2="48" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#37C8F5"/>
+      <stop offset=".5" stop-color="#2878FF"/>
+      <stop offset="1" stop-color="#25D3A1"/>
+    </linearGradient>
+    <radialGradient id="connected-care-left" cx="0" cy="0" r="1" gradientTransform="translate(17 24) rotate(58) scale(17)">
+      <stop stop-color="#fff"/>
+      <stop offset=".45" stop-color="#37C8F5" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#2878FF" stop-opacity=".16"/>
+    </radialGradient>
+    <radialGradient id="connected-care-right" cx="0" cy="0" r="1" gradientTransform="translate(47 34) rotate(55) scale(17)">
+      <stop stop-color="#fff"/>
+      <stop offset=".45" stop-color="#91F1D4" stop-opacity=".58"/>
+      <stop offset="1" stop-color="#25D3A1" stop-opacity=".16"/>
+    </radialGradient>
+    <linearGradient id="connected-care-center" x1="25" y1="24" x2="40" y2="41" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2878FF"/>
+      <stop offset="1" stop-color="#25D3A1"/>
+    </linearGradient>
+    <filter id="connected-care-shadow" x="5" y="8" width="54" height="51" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="2.5" stdDeviation="2.1" flood-color="#2878FF" flood-opacity=".16"/>
+    </filter>
+  </defs>
+  <g filter="url(#connected-care-shadow)">
+    <path d="M18.5 20.2A21.6 21.6 0 0 1 46 18.1M49.1 42.4A21.6 21.6 0 0 1 22 50M13.7 40.6a21.6 21.6 0 0 1-1.1-13" stroke="url(#connected-care-link)" stroke-width="2" stroke-linecap="round" stroke-dasharray="3 3.5"/>
+    <circle cx="16.5" cy="30" r="10.5" fill="url(#connected-care-left)" stroke="#2878FF" stroke-width="1.5"/>
+    <circle cx="47.5" cy="34" r="10.5" fill="url(#connected-care-right)" stroke="#25D3A1" stroke-width="1.5"/>
+    <circle cx="16.5" cy="27.1" r="3.2" fill="#2878FF" fill-opacity=".72"/>
+    <path d="M10.8 36.2a6 6 0 0 1 11.4 0" fill="#2878FF" fill-opacity=".14" stroke="#2878FF" stroke-width="1.4" stroke-linecap="round"/>
+    <circle cx="47.5" cy="31.1" r="3.2" fill="#25D3A1" fill-opacity=".82"/>
+    <path d="M41.8 40.2a6 6 0 0 1 11.4 0" fill="#25D3A1" fill-opacity=".14" stroke="#25D3A1" stroke-width="1.4" stroke-linecap="round"/>
+    <path d="m25.1 30.25 5.4-3.1M33.5 37.1l5.4-3.1" stroke="#fff" stroke-width="4" stroke-linecap="round"/>
+    <path d="m25.1 30.25 5.4-3.1M33.5 37.1l5.4-3.1" stroke="url(#connected-care-link)" stroke-width="1.7" stroke-linecap="round"/>
+    <rect x="25.5" y="25.5" width="13" height="13" rx="4" fill="#fff" fill-opacity=".9" stroke="url(#connected-care-center)" stroke-width="1.5" transform="rotate(-3 25.5 25.5)"/>
+    <path d="M32 28.7v6.6M28.7 32h6.6" stroke="url(#connected-care-center)" stroke-width="2.1" stroke-linecap="round"/>
+  </g>
+  <circle cx="46.5" cy="15" r="2.2" fill="#37C8F5" stroke="#fff" stroke-width="1"/>
+  <circle cx="20" cy="50.8" r="2.2" fill="#25D3A1" stroke="#fff" stroke-width="1"/>
+</svg>

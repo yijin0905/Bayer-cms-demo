@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none" role="img" aria-labelledby="digital-twin-title digital-twin-desc">
+  <title id="digital-twin-title">Patient digital twin</title>
+  <desc id="digital-twin-desc">Two connected translucent human profiles representing a synchronized digital twin.</desc>
+  <defs>
+    <linearGradient id="digital-twin-left" x1="9" y1="16" x2="31" y2="51" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#37C8F5" stop-opacity=".36"/>
+      <stop offset="1" stop-color="#2878FF" stop-opacity=".1"/>
+    </linearGradient>
+    <linearGradient id="digital-twin-right" x1="35" y1="14" x2="57" y2="51" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#25D3A1" stop-opacity=".35"/>
+      <stop offset="1" stop-color="#37C8F5" stop-opacity=".1"/>
+    </linearGradient>
+    <linearGradient id="digital-twin-link" x1="23" y1="32" x2="42" y2="32" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2878FF"/>
+      <stop offset="1" stop-color="#25D3A1"/>
+    </linearGradient>
+  </defs>
+  <path d="M22.2 12.5a9.05 9.05 0 0 0-9.05 9.05v4.68L9 32.3l4.15 1.58v3.42c0 4.12 2.33 7.89 6.02 9.73v5.22h13.36v-5.37a10.73 10.73 0 0 0 5.16-9.18v-7.93A17.28 17.28 0 0 0 22.2 12.5Z" fill="url(#digital-twin-left)" stroke="#2878FF" stroke-width="2.25" stroke-linejoin="round"/>
+  <path d="M42.18 11.75a8.73 8.73 0 0 1 8.73 8.73v4.51L55 30.84l-4.09 1.53v3.3a10.48 10.48 0 0 1-5.81 9.4v5.18H33.28" fill="url(#digital-twin-right)" stroke="#25D3A1" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M18.25 19.25c3.16-2.42 7.44-2.23 10.4.45" stroke="#fff" stroke-opacity=".9" stroke-width="1.75" stroke-linecap="round"/>
+  <path d="M38.2 18.4c2.83-1.99 6.6-1.88 9.31.27" stroke="#fff" stroke-opacity=".86" stroke-width="1.75" stroke-linecap="round"/>
+  <path d="M25 28.5h13.2l-3.05-3.05M39 35.5H25.8l3.05 3.05" stroke="url(#digital-twin-link)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="20.25" cy="25.5" r="2" fill="#37C8F5"/>
+  <circle cx="44.25" cy="24.5" r="2" fill="#25D3A1"/>
+  <path d="M20.25 25.5 25 28.5M44.25 24.5 38.2 28.5" stroke="#18354F" stroke-opacity=".45" stroke-width="1.25" stroke-linecap="round"/>
+</svg>
